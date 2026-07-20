@@ -1,0 +1,34 @@
+# Office 临时文件
+~$*
+*.tmp
+*.temp
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 本地缓存与依赖
+node_modules/
+.cache/
+.pytest_cache/
+__pycache__/
+*.pyc
+
+# 临时工作区和渲染中间物
+99-临时工作区/*
+!99-临时工作区/README.md
+**/tmp/
+**/.tmp/
+**/preview-cache/
+
+# 本机预览服务状态
+*.pid
+*.log
+.env
+.env.*
+
+# 账号或录屏隐私材料
+**/私密素材/
+**/账号信息/
+
