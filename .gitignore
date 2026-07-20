@@ -16,6 +16,7 @@ __pycache__/
 *.pyc
 
 # 临时工作区和渲染中间物
+output/
 99-临时工作区/*
 !99-临时工作区/README.md
 **/tmp/
@@ -25,10 +26,12 @@ __pycache__/
 # 本机预览服务状态
 *.pid
 *.log
+**/.preview-server.json
+**/.stage-media-manifest.json
+**/.image-slots.state.json
 .env
 .env.*
 
 # 账号或录屏隐私材料
 **/私密素材/
 **/账号信息/
-

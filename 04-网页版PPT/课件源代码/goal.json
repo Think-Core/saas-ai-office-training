@@ -1,0 +1,37 @@
+{
+  "title": "SaaS 类 AI 工具赋能基础办公",
+  "goal": "以课程封面完成讲师定位，并用从回答问题到完成任务引出 Agent 办公主线",
+  "audience": "公司跨部门业务骨干",
+  "owner": "张金京",
+  "randomSeed": "saas-office-cover-20260720-a01-icons",
+  "pageCount": 1,
+  "themePack": "theme07",
+  "slides": [
+    {
+      "layout": "theme07_page002",
+      "props": {
+        "phaseLeft": "公司业务骨干 AI 实训",
+        "phaseRight": "第一期 · 课程 1",
+        "kicker": "SaaS 类 AI 工具",
+        "titleL1": "赋能",
+        "titleL2": "基础办公",
+        "subPre": "从回答问题",
+        "years": "到",
+        "subPost": "完成任务",
+        "summary": "理解 Agent，认识 WorkBuddy，掌握可迁移的 AI 办公方法。",
+        "logo": "Agent 工具版图",
+        "photoLabel": "",
+        "timeline": [
+          "理解 Agent",
+          "认识 WorkBuddy",
+          "掌握迁移方法"
+        ],
+        "images": [
+          "assets/user-media/a-01-agent.png"
+        ],
+        "imageCount": 1,
+        "accentColor": "#2F7BFF"
+      }
+    }
+  ]
+}
