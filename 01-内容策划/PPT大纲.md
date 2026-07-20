@@ -13,7 +13,7 @@
 - 建议时间：约 3 分钟。
 - 页面预算：2—3 页。
 - 作用：完成讲师定位、课程问题和学习目标。
-- `A-01` 封面已确定：课程题目《SaaS 类 AI 工具赋能基础办公》，副标题“从回答问题到完成任务”，右侧使用 Codex、Claude Desktop、Coze、WorkBuddy、Manus、QoderWork 官方图标矩阵，展示讲师身份与“理解 Agent—认识 WorkBuddy—掌握迁移方法”三段路径。
+- `A-01` 封面已确定：显示标题“Agent 赋能基础办公”，右侧使用 Codex、Claude Desktop、Coze、WorkBuddy、Manus、QoderWork 高清官方图标矩阵；不显示副标题、底部总结句和媒体标签，右上角使用人民邮电出版社科技蓝 Logo，三段路径为“理解 Agent—认识智能体工具—掌握人机协作方法”。
 - 其余开场页面待课程问题和学习目标的讲述方式确认后拆页。
 
 ## 第二章｜从大模型到 Agent
