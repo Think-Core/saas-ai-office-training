@@ -1,10 +1,10 @@
 {
   "title": "AI Agent 赋能基础办公",
-  "goal": "以 AI Agent 为主线，呈现课程定位、四阶段学习路线与后续办公实战内容",
+  "goal": "以 AI Agent 为主线，先呈现日常办公中被打散的任务痛点，再进入课程路线与后续办公实战内容",
   "audience": "公司跨部门业务骨干",
   "owner": "张金京",
-  "randomSeed": "agent-office-route-20260721-a02-studio",
-  "pageCount": 2,
+  "randomSeed": "agent-office-workbench-20260721-a03",
+  "pageCount": 3,
   "themePack": "theme07",
   "slides": [
     {
@@ -70,6 +70,65 @@
         "focusIndex": 0,
         "showDecorations": false,
         "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page065",
+      "props": {
+        "eyebrow": "",
+        "segment": "",
+        "title": "完成一项工作，背后要做多少事情？",
+        "titleTail": "",
+        "lead": "从想清楚，到交出去，很多环节都需要反复沟通处理。",
+        "closing": "",
+        "flowTitle": "日常办公的真实样子",
+        "steps": [
+          {
+            "name": "需求说不清楚",
+            "en": "",
+            "note": "",
+            "embed": false
+          },
+          {
+            "name": "信息搜集不全",
+            "en": "",
+            "note": "",
+            "embed": false
+          },
+          {
+            "name": "总是反复调整",
+            "en": "",
+            "note": "",
+            "embed": false
+          }
+        ],
+        "stepCount": 3,
+        "embedNodeTag": "",
+        "cardsTitle": "工作清单",
+        "cards": [
+          {
+            "name": "",
+            "en": "",
+            "note": ""
+          },
+          {
+            "name": "",
+            "en": "",
+            "note": ""
+          }
+        ],
+        "cardCount": 2,
+        "tagsTitle": "",
+        "tags": [
+          "",
+          ""
+        ],
+        "showTags": false,
+        "tagCount": 2,
+        "focusEnabled": false,
+        "focusIndex": 0,
+        "showDecorations": false,
+        "accentColor": "#2F7BFF"
       }
     }
   ]
