@@ -1,10 +1,10 @@
 {
-  "title": "Agent 赋能基础办公",
-  "goal": "以 Agent 为视觉主角，呈现面向业务骨干的智能体办公课程与三段学习目标",
+  "title": "AI Agent 赋能基础办公",
+  "goal": "以 AI Agent 为主线，呈现课程定位、四阶段学习路线与后续办公实战内容",
   "audience": "公司跨部门业务骨干",
   "owner": "张金京",
-  "randomSeed": "agent-office-cover-20260720-a01-studio",
-  "pageCount": 1,
+  "randomSeed": "agent-office-route-20260721-a02-studio",
+  "pageCount": 2,
   "themePack": "theme07",
   "slides": [
     {
@@ -13,7 +13,7 @@
         "phaseLeft": "公司业务骨干 AI 实训",
         "phaseRight": "第一期 · 课程 1",
         "kicker": "",
-        "titleL1": "Agent",
+        "titleL1": "AI Agent",
         "titleL2": "赋能基础办公",
         "subPre": "",
         "years": "",
@@ -26,10 +26,49 @@
           "认识智能体工具",
           "掌握人机协作方法"
         ],
+        "showTimeline": false,
         "images": [
           "assets/user-media/a-01-agent-v6.png"
         ],
         "imageCount": 1,
+        "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page007",
+      "props": {
+        "eyebrow": "",
+        "title": "",
+        "sub": "",
+        "lead": "",
+        "closing": "",
+        "chapters": [
+          {
+            "no": "01",
+            "zh": "理解 Agent",
+            "en": "从对话到执行任务"
+          },
+          {
+            "no": "02",
+            "zh": "上手智能体工具",
+            "en": "安装配置与基本使用"
+          },
+          {
+            "no": "03",
+            "zh": "掌握人机协作",
+            "en": "定义 · 执行 · 验收"
+          },
+          {
+            "no": "04",
+            "zh": "办公场景实战",
+            "en": "周报　总结　营销　知识库"
+          }
+        ],
+        "cardCount": 4,
+        "columns": 3,
+        "focusEnabled": false,
+        "focusIndex": 0,
+        "showDecorations": false,
         "accentColor": "#176BFF"
       }
     }
