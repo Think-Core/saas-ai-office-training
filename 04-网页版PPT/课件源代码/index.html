@@ -1841,112 +1841,200 @@
 </style>
 <style id="course-studio-refinement">
 /* A-01 cover refinement */
-section[data-layout="THEME07-002"] .kicker,
-section[data-layout="THEME07-002"] .sub,
-section[data-layout="THEME07-002"] .foot,
-section[data-layout="THEME07-002"] .logo { display:none !important; }
-section[data-layout="THEME07-002"] .body { justify-content:center !important; }
-section[data-layout="THEME07-002"] h1 { font-size:0 !important; line-height:1 !important; letter-spacing:0 !important; }
-section[data-layout="THEME07-002"] h1 .l1 {
-  display:block !important; color:#176bff !important;
-  font-family:Inter,"Arial Black","Noto Sans SC","Microsoft YaHei",sans-serif !important;
-  font-size:146px !important; font-weight:900 !important; line-height:.9 !important; letter-spacing:-7px !important;
-}
-section[data-layout="THEME07-002"] h1 .l2 {
-  display:block !important; margin-top:48px !important; color:#0b1528 !important;
-  font-family:"Noto Sans SC","Microsoft YaHei",sans-serif !important;
-  font-size:92px !important; font-weight:900 !important; line-height:1.04 !important; letter-spacing:0 !important;
-}
-section[data-layout="THEME07-002"] .timeline { display:none !important; }
-section[data-layout="THEME07-002"] .timeline .yr { font-size:29px !important; font-weight:700 !important; letter-spacing:.1px !important; }
-section[data-layout="THEME07-002"] .ptpress-brand {
-  position:absolute; z-index:12; top:8px; right:24px; width:230px; height:auto; pointer-events:none;
-}
+section[data-layout="THEME07-002"] .kicker,section[data-layout="THEME07-002"] .sub,section[data-layout="THEME07-002"] .foot,section[data-layout="THEME07-002"] .logo{display:none!important}
+section[data-layout="THEME07-002"] .body{justify-content:center!important}
+section[data-layout="THEME07-002"] h1{font-size:0!important;line-height:1!important;letter-spacing:0!important}
+section[data-layout="THEME07-002"] h1 .l1{display:block!important;color:#176bff!important;font-family:Inter,"Arial Black","Noto Sans SC","Microsoft YaHei",sans-serif!important;font-size:146px!important;font-weight:900!important;line-height:.9!important;letter-spacing:-7px!important}
+section[data-layout="THEME07-002"] h1 .l2{display:block!important;margin-top:48px!important;color:#0b1528!important;font-family:"Noto Sans SC","Microsoft YaHei",sans-serif!important;font-size:92px!important;font-weight:900!important;line-height:1.04!important;letter-spacing:0!important}
+section[data-layout="THEME07-002"] .timeline{display:none!important}
+section[data-layout="THEME07-002"] .ptpress-brand{position:absolute;z-index:12;top:8px;right:24px;width:230px;height:auto;pointer-events:none}
 
 /* A-02 four-stage learning route */
-section[data-layout="THEME07-007"] .aic-toc {
-  position:relative !important; overflow:hidden !important;
-  display:flex !important; flex-direction:column !important; box-sizing:border-box !important;
-  width:100% !important; height:100% !important; padding:72px 150px !important;
-  background:#fafbf9 !important; color:#0b1528 !important;
-  --aic-accent:#176bff !important; --aic-paper:#fafbf9 !important;
-}
-section[data-layout="THEME07-007"] .toc-head,
-section[data-layout="THEME07-007"] .toc-lead,
-section[data-layout="THEME07-007"] .toc-foot { display:none !important; }
-section[data-layout="THEME07-007"] .toc-grid {
-  position:relative !important; inset:auto !important; flex:1 1 auto !important;
-  display:grid !important; grid-template-columns:1fr !important;
-  grid-template-rows:repeat(4,minmax(0,1fr)) !important;
-  gap:0 !important; width:1060px !important; height:auto !important; margin:0 !important;
-}
-section[data-layout="THEME07-007"] .toc-card {
-  position:relative !important; display:grid !important; grid-template-columns:190px 1fr !important;
-  align-items:center !important; justify-content:normal !important; min-height:0 !important; padding:18px 42px !important;
-  background:transparent !important; border:0 !important; border-radius:0 !important;
-  box-shadow:none !important; transform:none !important;
-}
-section[data-layout="THEME07-007"] .toc-card:not(:last-child) { border-bottom:1px solid #d9e0e8 !important; }
-section[data-layout="THEME07-007"] .toc-card::before,
-section[data-layout="THEME07-007"] .toc-card::after { display:none !important; content:none !important; }
-section[data-layout="THEME07-007"] .toc-card-no {
-  color:#176bff !important; font-family:Inter,"Arial Black",sans-serif !important;
-  font-size:96px !important; font-weight:900 !important; line-height:1 !important; letter-spacing:-5px !important;
-}
-section[data-layout="THEME07-007"] .toc-card > div:last-child {
-  display:flex !important; flex-direction:column !important; justify-content:center !important; gap:15px !important;
-}
-section[data-layout="THEME07-007"] .toc-card-zh {
-  margin:0 !important; color:#0b1528 !important;
-  font-family:"Noto Sans SC","Microsoft YaHei",sans-serif !important;
-  font-size:60px !important; font-weight:900 !important; line-height:1.08 !important; letter-spacing:-1.2px !important;
-}
-section[data-layout="THEME07-007"] .toc-card-en {
-  margin:0 !important; color:#687386 !important;
-  font-family:"Noto Sans SC","Microsoft YaHei",sans-serif !important;
-  font-size:32px !important; font-weight:600 !important; line-height:1.2 !important; letter-spacing:.2px !important;
-  text-transform:none !important;
-}
-section[data-layout="THEME07-007"] .a02-visual {
-  position:absolute; z-index:0; top:146px; right:108px;
-  width:500px; height:760px; pointer-events:none;
-}
-section[data-layout="THEME07-007"] .a02-visual::before {
-  content:""; position:absolute; left:52px; top:62px; width:420px; height:590px;
-  border:1px solid rgba(23,107,255,.12); border-radius:50%;
-  transform:rotate(-13deg); box-shadow:inset 0 0 90px rgba(23,107,255,.035);
-}
-section[data-layout="THEME07-007"] .a02-visual::after {
-  content:""; position:absolute; z-index:0; left:34px; bottom:36px; width:430px; height:180px;
-  background:radial-gradient(ellipse at center,rgba(23,107,255,.18) 0%,rgba(23,107,255,0) 70%);
-  filter:blur(18px); opacity:.78;
-}
-section[data-layout="THEME07-007"] .a02-plane {
-  position:absolute; z-index:2; display:block; width:390px; height:116px;
-  border:1px solid rgba(23,107,255,.22); border-radius:27px;
-  transform:rotate(-9deg) skewX(-10deg);
-  box-shadow:0 24px 48px rgba(45,85,145,.10), inset 0 1px 0 rgba(255,255,255,.78);
-  backdrop-filter:blur(2px);
-}
-section[data-layout="THEME07-007"] .a02-plane.p1 {
-  right:8px; bottom:66px; background:linear-gradient(135deg,rgba(222,235,255,.78),rgba(241,247,255,.42));
-}
-section[data-layout="THEME07-007"] .a02-plane.p2 {
-  right:42px; bottom:198px; background:linear-gradient(135deg,rgba(186,215,255,.72),rgba(224,237,255,.40));
-}
-section[data-layout="THEME07-007"] .a02-plane.p3 {
-  right:76px; bottom:330px; background:linear-gradient(135deg,rgba(94,153,255,.66),rgba(181,211,255,.38));
-}
-section[data-layout="THEME07-007"] .a02-plane.p4 {
-  right:110px; bottom:462px; background:linear-gradient(135deg,#176bff 0%,#5596ff 100%);
-  border-color:rgba(23,107,255,.72); box-shadow:0 28px 58px rgba(23,107,255,.24),inset 0 1px 0 rgba(255,255,255,.42);
-}
-section[data-layout="THEME07-007"] .a02-focus {
-  position:absolute; z-index:3; right:112px; top:17px; display:block; width:86px; height:86px;
-  border-radius:50%; border:9px solid rgba(255,255,255,.86);
-  background:radial-gradient(circle at 34% 28%,#b9d4ff 0 10%,#4d91ff 31%,#176bff 66%,#0d48bf 100%);
-  box-shadow:0 20px 54px rgba(23,107,255,.32),0 0 0 1px rgba(23,107,255,.10);
-}
+section[data-layout="THEME07-007"] .aic-toc{position:relative!important;overflow:hidden!important;display:flex!important;flex-direction:column!important;box-sizing:border-box!important;width:100%!important;height:100%!important;padding:72px 150px!important;background:#fafbf9!important;color:#0b1528!important;--aic-accent:#176bff!important;--aic-paper:#fafbf9!important}
+section[data-layout="THEME07-007"] .toc-head,section[data-layout="THEME07-007"] .toc-lead,section[data-layout="THEME07-007"] .toc-foot{display:none!important}
+section[data-layout="THEME07-007"] .toc-grid{position:relative!important;inset:auto!important;flex:1 1 auto!important;display:grid!important;grid-template-columns:1fr!important;grid-template-rows:repeat(4,minmax(0,1fr))!important;gap:0!important;width:1060px!important;height:auto!important;margin:0!important}
+section[data-layout="THEME07-007"] .toc-card{position:relative!important;display:grid!important;grid-template-columns:190px 1fr!important;align-items:center!important;min-height:0!important;padding:18px 42px!important;background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important;transform:none!important}
+section[data-layout="THEME07-007"] .toc-card:not(:last-child){border-bottom:1px solid #d9e0e8!important}
+section[data-layout="THEME07-007"] .toc-card::before,section[data-layout="THEME07-007"] .toc-card::after{display:none!important;content:none!important}
+section[data-layout="THEME07-007"] .toc-card-no{color:#176bff!important;font-family:Inter,"Arial Black",sans-serif!important;font-size:96px!important;font-weight:900!important;line-height:1!important;letter-spacing:-5px!important}
+section[data-layout="THEME07-007"] .toc-card>div:last-child{display:flex!important;flex-direction:column!important;justify-content:center!important;gap:15px!important}
+section[data-layout="THEME07-007"] .toc-card-zh{margin:0!important;color:#0b1528!important;font-family:"Noto Sans SC","Microsoft YaHei",sans-serif!important;font-size:60px!important;font-weight:900!important;line-height:1.08!important;letter-spacing:-1.2px!important}
+section[data-layout="THEME07-007"] .toc-card-en{margin:0!important;color:#687386!important;font-family:"Noto Sans SC","Microsoft YaHei",sans-serif!important;font-size:32px!important;font-weight:600!important;line-height:1.2!important;letter-spacing:.2px!important;text-transform:none!important}
+section[data-layout="THEME07-007"] .a02-visual{position:absolute;z-index:0;top:146px;right:108px;width:500px;height:760px;pointer-events:none}
+section[data-layout="THEME07-007"] .a02-visual::before{content:"";position:absolute;left:52px;top:62px;width:420px;height:590px;border:1px solid rgba(23,107,255,.12);border-radius:50%;transform:rotate(-13deg);box-shadow:inset 0 0 90px rgba(23,107,255,.035)}
+section[data-layout="THEME07-007"] .a02-visual::after{content:"";position:absolute;z-index:0;left:34px;bottom:36px;width:430px;height:180px;background:radial-gradient(ellipse at center,rgba(23,107,255,.18) 0%,rgba(23,107,255,0) 70%);filter:blur(18px);opacity:.78}
+section[data-layout="THEME07-007"] .a02-plane{position:absolute;z-index:2;display:block;width:390px;height:116px;border:1px solid rgba(23,107,255,.22);border-radius:27px;transform:rotate(-9deg) skewX(-10deg);box-shadow:0 24px 48px rgba(45,85,145,.10),inset 0 1px 0 rgba(255,255,255,.78);backdrop-filter:blur(2px)}
+section[data-layout="THEME07-007"] .a02-plane.p1{right:8px;bottom:66px;background:linear-gradient(135deg,rgba(222,235,255,.78),rgba(241,247,255,.42))}section[data-layout="THEME07-007"] .a02-plane.p2{right:42px;bottom:198px;background:linear-gradient(135deg,rgba(186,215,255,.72),rgba(224,237,255,.40))}section[data-layout="THEME07-007"] .a02-plane.p3{right:76px;bottom:330px;background:linear-gradient(135deg,rgba(94,153,255,.66),rgba(181,211,255,.38))}section[data-layout="THEME07-007"] .a02-plane.p4{right:110px;bottom:462px;background:linear-gradient(135deg,#176bff 0%,#5596ff 100%);border-color:rgba(23,107,255,.72);box-shadow:0 28px 58px rgba(23,107,255,.24),inset 0 1px 0 rgba(255,255,255,.42)}
+section[data-layout="THEME07-007"] .a02-focus{position:absolute;z-index:3;right:112px;top:17px;display:block;width:86px;height:86px;border-radius:50%;border:9px solid rgba(255,255,255,.86);background:radial-gradient(circle at 34% 28%,#b9d4ff 0 10%,#4d91ff 31%,#176bff 66%,#0d48bf 100%);box-shadow:0 20px 54px rgba(23,107,255,.32),0 0 0 1px rgba(23,107,255,.10)}
+
+/* A-03 task-closure narrative */
+section[data-layout="THEME07-065"]{background:#f7f9fc!important}
+section[data-layout="THEME07-065"] .imported-theme-root{display:none!important}
+section[data-layout="THEME07-065"] .a03-reframe{position:absolute;inset:0;overflow:hidden;box-sizing:border-box;background:#f7f9fc;color:#0b1528;font-family:"Noto Sans SC","Microsoft YaHei",sans-serif}
+section[data-layout="THEME07-065"] .a03-header{position:absolute;z-index:8;top:66px;left:112px}
+section[data-layout="THEME07-065"] .a03-kicker{margin:0 0 12px;color:#176bff;font-size:17px;font-weight:800;letter-spacing:.14em}
+section[data-layout="THEME07-065"] .a03-title{margin:0;color:#0b1528;font-size:56px;line-height:1.12;font-weight:900;letter-spacing:-2.5px}
+section[data-layout="THEME07-065"] .a03-lead{max-width:745px;margin:16px 0 0;color:#5d6a7c;font-size:22px;line-height:1.45;font-weight:600;letter-spacing:-.25px}
+section[data-layout="THEME07-065"] .a03-workspace{position:absolute;z-index:1;top:250px;left:80px;right:80px;bottom:104px}
+section[data-layout="THEME07-065"] .a03-workspace::before{content:"";position:absolute;left:50%;top:44%;width:840px;height:560px;border:1px solid rgba(23,107,255,.08);border-radius:50%;transform:translate(-50%,-50%) rotate(-13deg);background:radial-gradient(ellipse at center,rgba(23,107,255,.055),rgba(23,107,255,0) 67%)}
+section[data-layout="THEME07-065"] .a03-wires{position:absolute;z-index:1;inset:0;width:100%;height:100%;overflow:visible}
+section[data-layout="THEME07-065"] .a03-wires path{fill:none;stroke:#9cb9df;stroke-width:1.5;stroke-linecap:round;stroke-dasharray:4 8;opacity:.8}
+section[data-layout="THEME07-065"] .a03-wires circle{fill:#f7f9fc;stroke:#176bff;stroke-width:2}
+section[data-layout="THEME07-065"] .a03-fragment{position:absolute;z-index:3}
+section[data-layout="THEME07-065"] .a03-fragment--brief{top:36px;left:72px;width:316px}
+section[data-layout="THEME07-065"] .a03-fragment--source{top:22px;right:82px;width:334px}
+section[data-layout="THEME07-065"] .a03-fragment--revision{bottom:1px;left:134px;width:322px}
+section[data-layout="THEME07-065"] .a03-fragment--archive{right:105px;bottom:9px;width:320px}
+section[data-layout="THEME07-065"] .a03-fragment-title{margin:0;color:#0b1528;font-size:36px;line-height:1;font-weight:900;letter-spacing:-1.5px}
+section[data-layout="THEME07-065"] .a03-fragment-copy{margin:8px 0 0;color:#667386;font-size:17px;line-height:1.4;font-weight:600}
+section[data-layout="THEME07-065"] .a03-paper{position:relative;box-sizing:border-box;border:1px solid rgba(42,75,119,.16);background:rgba(255,255,255,.94);box-shadow:0 18px 34px rgba(28,60,106,.10),inset 0 1px 0 rgba(255,255,255,.9)}
+section[data-layout="THEME07-065"] .a03-paper::after{content:"";position:absolute;right:0;top:0;border-top:28px solid #edf3fc;border-left:28px solid transparent}
+section[data-layout="THEME07-065"] .a03-brief-paper{width:185px;height:128px;margin:16px 0 0 24px;padding:22px 20px;transform:rotate(-7deg);border-radius:5px;background:#fffefa}
+section[data-layout="THEME07-065"] .a03-brief-paper::before{content:"需要更有吸引力";color:#526075;font-size:16px;font-weight:700}
+section[data-layout="THEME07-065"] .a03-question{position:absolute;right:-25px;top:-22px;display:grid;place-items:center;width:52px;height:52px;border-radius:50%;background:#fff0ee;color:#d84b43;font-family:Arial,sans-serif;font-size:32px;font-weight:800;transform:rotate(10deg);box-shadow:0 8px 18px rgba(182,66,59,.12)}
+section[data-layout="THEME07-065"] .a03-comment{position:absolute;left:170px;bottom:-26px;display:flex;align-items:center;gap:7px;padding:8px 11px;border:1px solid #d9e2ef;border-radius:18px;background:#fff;color:#637086;font-size:13px;font-weight:700;box-shadow:0 8px 16px rgba(28,60,106,.08);transform:rotate(3deg)}
+section[data-layout="THEME07-065"] .a03-icon{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+section[data-layout="THEME07-065"] .a03-source-stack{position:relative;height:136px;margin:18px 2px 0}
+section[data-layout="THEME07-065"] .a03-folder{position:absolute;right:55px;bottom:0;width:196px;height:113px;border:1px solid rgba(23,107,255,.26);border-radius:7px;background:linear-gradient(145deg,#e8f1ff,#d7e7ff);transform:rotate(5deg);box-shadow:0 13px 22px rgba(23,107,255,.10)}
+section[data-layout="THEME07-065"] .a03-folder::before{content:"";position:absolute;left:17px;top:-14px;width:66px;height:20px;border:1px solid rgba(23,107,255,.25);border-bottom:0;border-radius:7px 7px 0 0;background:#e8f1ff}
+section[data-layout="THEME07-065"] .a03-mini-file{position:absolute;box-sizing:border-box;width:89px;height:108px;padding:16px 14px;border:1px solid rgba(42,75,119,.17);border-radius:5px;background:#fff;box-shadow:0 10px 18px rgba(28,60,106,.10)}
+section[data-layout="THEME07-065"] .a03-mini-file.one{left:30px;top:16px;transform:rotate(-8deg)}
+section[data-layout="THEME07-065"] .a03-mini-file.two{left:100px;top:1px;transform:rotate(4deg)}
+section[data-layout="THEME07-065"] .a03-mini-file .a03-icon{color:#176bff}
+section[data-layout="THEME07-065"] .a03-mini-file i{display:block;width:48px;height:4px;margin-top:14px;background:#d6dfeb;box-shadow:0 10px 0 #d6dfeb,0 20px 0 #e9eef5}
+section[data-layout="THEME07-065"] .a03-search{position:absolute;right:6px;top:17px;display:grid;place-items:center;width:43px;height:43px;border:1px solid #bed2f0;border-radius:50%;background:#fff;color:#176bff;box-shadow:0 8px 14px rgba(23,107,255,.08)}
+section[data-layout="THEME07-065"] .a03-revision-stack{position:relative;height:135px;margin:17px 0 0 30px}
+section[data-layout="THEME07-065"] .a03-revision-page{position:absolute;box-sizing:border-box;width:176px;height:116px;padding:18px 20px;border-radius:6px;background:#fff;box-shadow:0 14px 24px rgba(28,60,106,.11)}
+section[data-layout="THEME07-065"] .a03-revision-page.back{left:22px;top:9px;border:1px solid #d8e1ed;transform:rotate(6deg);background:#f0f5fb}
+section[data-layout="THEME07-065"] .a03-revision-page.front{left:0;top:0;border:1px solid rgba(42,75,119,.20);transform:rotate(-5deg)}
+section[data-layout="THEME07-065"] .a03-edit-row{height:7px;margin:6px 0;background:#d8e1ed}
+section[data-layout="THEME07-065"] .a03-edit-row.short{width:72%}
+section[data-layout="THEME07-065"] .a03-edit-row.red{position:relative;width:92%;background:#f3b9b5}
+section[data-layout="THEME07-065"] .a03-edit-row.red::after{content:"";position:absolute;left:-3px;top:2px;width:112%;height:2px;background:#d84b43;transform:rotate(-3deg)}
+section[data-layout="THEME07-065"] .a03-edit-bubble{position:absolute;left:155px;top:-13px;width:72px;height:48px;border-radius:14px 14px 14px 3px;background:#fff0ee;color:#d84b43;box-shadow:0 8px 16px rgba(182,66,59,.10)}
+section[data-layout="THEME07-065"] .a03-edit-bubble::before{content:"改这里";position:absolute;top:14px;left:13px;font-size:13px;font-weight:800}
+section[data-layout="THEME07-065"] .a03-archive-scene{position:relative;height:132px;margin:16px 0 0}
+section[data-layout="THEME07-065"] .a03-archive-folder{position:absolute;right:40px;bottom:0;width:200px;height:112px;border:1px solid #cdd9e8;border-radius:7px;background:#e9eff7;transform:rotate(-4deg);box-shadow:0 12px 21px rgba(28,60,106,.09)}
+section[data-layout="THEME07-065"] .a03-archive-folder::before{content:"";position:absolute;left:17px;top:-14px;width:64px;height:20px;border:1px solid #cdd9e8;border-bottom:0;border-radius:7px 7px 0 0;background:#e9eff7}
+section[data-layout="THEME07-065"] .a03-old-result{position:absolute;right:78px;bottom:18px;box-sizing:border-box;width:110px;height:139px;padding:18px 16px;border:1px solid #cbd7e6;border-radius:5px;background:#fff;box-shadow:0 10px 18px rgba(28,60,106,.12);transform:rotate(5deg)}
+section[data-layout="THEME07-065"] .a03-old-result .a03-icon{color:#718198}
+section[data-layout="THEME07-065"] .a03-old-result i{display:block;width:62px;height:4px;margin-top:14px;background:#dce4ee;box-shadow:0 10px 0 #dce4ee,0 20px 0 #dce4ee}
+section[data-layout="THEME07-065"] .a03-history{position:absolute;right:1px;top:18px;display:grid;place-items:center;width:44px;height:44px;border-radius:50%;border:1px solid #cbd9ec;background:#fff;color:#64758c;box-shadow:0 7px 14px rgba(28,60,106,.07)}
+section[data-layout="THEME07-065"] .a03-core{position:absolute;z-index:5;left:50%;top:44%;box-sizing:border-box;width:460px;height:360px;padding:41px 44px;border:2px solid #176bff;border-radius:9px;background:#fff;transform:translate(-50%,-50%) rotate(-3deg);box-shadow:0 26px 55px rgba(23,107,255,.17),-18px 18px 0 rgba(223,236,255,.72)}
+section[data-layout="THEME07-065"] .a03-core::before{content:"";position:absolute;left:24px;right:24px;bottom:-17px;height:17px;border:1px solid #d2e0f2;border-top:0;border-radius:0 0 7px 7px;background:#e5effc;transform:skewX(-18deg);transform-origin:left top}
+section[data-layout="THEME07-065"] .a03-core-kicker{display:flex;align-items:center;justify-content:space-between;margin:0;color:#176bff;font-size:14px;font-weight:900;letter-spacing:.1em}
+section[data-layout="THEME07-065"] .a03-core-status{width:10px;height:10px;border-radius:50%;background:#d84b43;box-shadow:0 0 0 5px rgba(216,75,67,.10)}
+section[data-layout="THEME07-065"] .a03-core-title{margin:26px 0 15px;font-size:33px;line-height:1.1;font-weight:900;letter-spacing:-1.2px}
+section[data-layout="THEME07-065"] .a03-core-rule{height:9px;margin:13px 0;background:linear-gradient(90deg,#cbd8e8 0 54%,transparent 54%)}
+section[data-layout="THEME07-065"] .a03-core-rule.short{width:72%}
+section[data-layout="THEME07-065"] .a03-core-tag{display:inline-flex;align-items:center;gap:7px;margin-top:23px;padding:8px 11px;border-radius:5px;background:#fff0ee;color:#c8443c;font-size:14px;font-weight:800}
+section[data-layout="THEME07-065"] .a03-core-tag::before{content:"";width:7px;height:7px;border-radius:50%;background:#d84b43}
+section[data-layout="THEME07-065"] .a03-footer{position:absolute;z-index:9;right:112px;bottom:60px;margin:0;color:#28364a;font-size:22px;font-weight:800;letter-spacing:-.4px}
+section[data-layout="THEME07-065"] .a03-footer::before{content:"";display:inline-block;width:36px;height:4px;margin:0 14px 6px 0;border-radius:4px;background:#176bff}
+</style>
+<style id="a03-refinement-style">
+section[data-layout="THEME07-065"] .a03-kicker{font-size:25px!important;letter-spacing:.08em!important;line-height:1.15!important}
+section[data-layout="THEME07-065"] .a03-title{font-size:54px!important;letter-spacing:-2px!important}
+section[data-layout="THEME07-065"] .a03-lead{max-width:850px!important;font-size:23px!important;line-height:1.45!important}
+section[data-layout="THEME07-065"] .a03-fragment{isolation:isolate}
+section[data-layout="THEME07-065"] .a03-fragment-title,section[data-layout="THEME07-065"] .a03-fragment-copy{position:relative;z-index:6}
+section[data-layout="THEME07-065"] .a03-fragment--brief{width:350px!important}
+section[data-layout="THEME07-065"] .a03-fragment--source{width:370px!important;right:44px!important}
+section[data-layout="THEME07-065"] .a03-fragment--revision{width:366px!important;left:104px!important}
+section[data-layout="THEME07-065"] .a03-fragment--archive{width:360px!important;right:52px!important}
+section[data-layout="THEME07-065"] .a03-brief-paper,section[data-layout="THEME07-065"] .a03-source-stack,section[data-layout="THEME07-065"] .a03-revision-stack,section[data-layout="THEME07-065"] .a03-archive-scene{position:relative;z-index:2}
+section[data-layout="THEME07-065"] .a03-question{z-index:7}
+section[data-layout="THEME07-065"] .a03-comment{z-index:8}
+section[data-layout="THEME07-065"] .a03-edit-bubble,section[data-layout="THEME07-065"] .a03-history{z-index:7}
+section[data-layout="THEME07-065"] .a03-archive-scene{margin-top:23px!important}
+section[data-layout="THEME07-065"] .a03-core{height:390px!important;padding:35px 42px!important}
+section[data-layout="THEME07-065"] .a03-core-kicker{font-size:22px!important;letter-spacing:.04em!important}
+section[data-layout="THEME07-065"] .a03-core-title{margin:22px 0 15px!important;font-size:39px!important;line-height:1.12!important;letter-spacing:-1.6px!important}
+section[data-layout="THEME07-065"] .a03-core-copy{max-width:330px;margin:0;color:#536279;font-size:17px;line-height:1.55;font-weight:700}
+section[data-layout="THEME07-065"] .a03-core-loop{display:flex;flex-wrap:wrap;gap:8px;margin-top:19px}
+section[data-layout="THEME07-065"] .a03-core-loop span{padding:6px 9px;border:1px solid #d5e1f0;border-radius:4px;background:#f7faff;color:#5a6a80;font-size:13px;font-weight:800}
+section[data-layout="THEME07-065"] .a03-core-loop span:nth-child(2),section[data-layout="THEME07-065"] .a03-core-loop span:nth-child(4){color:#176bff;border-color:#c4d9f5}
+section[data-layout="THEME07-065"] .a03-footer{display:none!important}
+</style>
+<style id="a03-revision-paper-detail">
+section[data-layout="THEME07-065"] .a03-revision-page.front{padding:15px 18px!important}
+section[data-layout="THEME07-065"] .a03-revision-doc-title{display:flex;align-items:center;gap:6px;margin-bottom:10px;color:#4b5f79;font-size:12px;font-weight:900}
+section[data-layout="THEME07-065"] .a03-revision-doc-title::before{content:"";width:7px;height:7px;border-radius:50%;background:#176bff}
+section[data-layout="THEME07-065"] .a03-revision-page.front .a03-edit-row{height:5px;margin:7px 0;background:#cad7e7}
+section[data-layout="THEME07-065"] .a03-revision-page.front .a03-edit-row.red{height:6px;background:#f5c4c0}
+section[data-layout="THEME07-065"] .a03-revision-highlight{display:inline-block;margin-top:5px;padding:4px 7px;border-radius:3px;background:#fff0ee;color:#d84b43;font-size:11px;font-weight:900;transform:rotate(-2deg)}
+section[data-layout="THEME07-065"] .a03-revision-page.back::before{content:"V1";position:absolute;left:20px;top:19px;color:#8ba0bb;font-size:12px;font-weight:900;letter-spacing:.08em}
+section[data-layout="THEME07-065"] .a03-revision-page.back::after{content:"";position:absolute;left:20px;top:45px;width:96px;height:5px;background:#d2ddea;box-shadow:0 12px 0 #d2ddea,0 24px 0 #dfe7f1}
+</style>
+<style id="a03-canvas-fit">
+/* A-03 shares the deck's 1920×1080 logical canvas. This keeps the custom visual
+   aligned with imported theme pages at every browser zoom level and in print. */
+section[data-layout="THEME07-065"] .a03-reframe{inset:auto!important;left:0!important;top:0!important;width:1920px!important;height:1080px!important;transform:scale(var(--deck-scale))!important;transform-origin:top left!important}
+@media print{section[data-layout="THEME07-065"] .a03-reframe{transform:scale(1)!important}}
+</style>
+<style id="a03-density-110">
+/* Fixed-canvas composition tuned to the visual density of the approved 110% reference. */
+section[data-layout="THEME07-065"] .a03-header{left:140px!important;top:70px!important}
+section[data-layout="THEME07-065"] .a03-title{font-size:59px!important}
+section[data-layout="THEME07-065"] .a03-lead{font-size:24px!important}
+section[data-layout="THEME07-065"] .a03-fragment-title{font-size:40px!important}
+section[data-layout="THEME07-065"] .a03-fragment-copy{font-size:18px!important}
+section[data-layout="THEME07-065"] .a03-fragment--brief{left:120px!important;top:48px!important}
+section[data-layout="THEME07-065"] .a03-fragment--source{right:160px!important;top:38px!important}
+section[data-layout="THEME07-065"] .a03-fragment--revision{left:160px!important;bottom:26px!important}
+section[data-layout="THEME07-065"] .a03-fragment--archive{right:164px!important;bottom:30px!important}
+section[data-layout="THEME07-065"] .a03-core{left:47%!important;top:46%!important;width:510px!important;height:420px!important;padding:39px 46px!important}
+section[data-layout="THEME07-065"] .a03-core-kicker{font-size:23px!important}
+section[data-layout="THEME07-065"] .a03-core-title{font-size:43px!important}
+section[data-layout="THEME07-065"] .a03-core-copy{max-width:365px!important;font-size:18px!important}
+section[data-layout="THEME07-065"] .a03-core-loop{margin-top:22px!important}
+section[data-layout="THEME07-065"] .a03-core-loop span{font-size:14px!important;padding:7px 10px!important}
+</style>
+<style id="a03-body-scale-up">
+/* Increase body weight without changing the headline or the responsive canvas contract. */
+section[data-layout="THEME07-065"] .a03-fragment-title{font-size:45px!important;letter-spacing:-2px!important}
+section[data-layout="THEME07-065"] .a03-fragment-copy{font-size:20px!important;line-height:1.35!important}
+section[data-layout="THEME07-065"] .a03-brief-paper{transform:scale(1.12) rotate(-7deg)!important;transform-origin:top left}
+section[data-layout="THEME07-065"] .a03-comment{transform:scale(1.1) rotate(3deg)!important;transform-origin:top left}
+section[data-layout="THEME07-065"] .a03-source-stack{transform:scale(1.12)!important;transform-origin:top left}
+section[data-layout="THEME07-065"] .a03-revision-stack{transform:scale(1.12)!important;transform-origin:top left}
+section[data-layout="THEME07-065"] .a03-archive-scene{transform:scale(1.12)!important;transform-origin:top left}
+section[data-layout="THEME07-065"] .a03-core{width:540px!important;height:450px!important;padding:43px 49px!important}
+section[data-layout="THEME07-065"] .a03-core-kicker{font-size:25px!important}
+section[data-layout="THEME07-065"] .a03-core-title{font-size:48px!important;letter-spacing:-2px!important}
+section[data-layout="THEME07-065"] .a03-core-copy{max-width:390px!important;font-size:20px!important;line-height:1.5!important}
+section[data-layout="THEME07-065"] .a03-core-loop span{font-size:15px!important;padding:8px 11px!important}
+</style>
+<style id="a03-scale-and-icon-correction">
+/* Keep the four pain-point headings subordinate to the page headline. */
+section[data-layout="THEME07-065"] .a03-fragment-title{font-size:41px!important;letter-spacing:-1.6px!important}
+
+/* Make the handwritten review cues legible at presentation distance. */
+section[data-layout="THEME07-065"] .a03-comment{font-size:15px!important;padding:9px 13px!important;gap:8px!important}
+section[data-layout="THEME07-065"] .a03-edit-bubble{width:82px!important;height:54px!important}
+section[data-layout="THEME07-065"] .a03-edit-bubble::before{top:15px!important;left:14px!important;font-size:16px!important}
+section[data-layout="THEME07-065"] .a03-revision-doc-title{font-size:15px!important;margin-bottom:11px!important}
+section[data-layout="THEME07-065"] .a03-revision-highlight{font-size:14px!important;padding:5px 8px!important}
+
+/* Scaled right-hand groups use their outer right edge as the anchor, preventing icons from drifting out. */
+section[data-layout="THEME07-065"] .a03-source-stack{transform-origin:top right!important}
+section[data-layout="THEME07-065"] .a03-source-stack .a03-search{right:10px!important;top:14px!important}
+section[data-layout="THEME07-065"] .a03-archive-scene{transform-origin:top right!important}
+section[data-layout="THEME07-065"] .a03-archive-scene .a03-history{right:10px!important;top:14px!important}
+section[data-layout="THEME07-065"] .a03-brief-paper::before{font-size:19px!important;line-height:1.25!important}
+section[data-layout="THEME07-065"] .a03-comment{font-size:16px!important;padding:10px 14px!important}
+section[data-layout="THEME07-065"] .a03-edit-bubble::before{font-size:18px!important}
+section[data-layout="THEME07-065"] .a03-revision-doc-title{font-size:17px!important}
+section[data-layout="THEME07-065"] .a03-revision-highlight{font-size:16px!important;padding:5px 9px!important}
+/* Separate the headings from their supporting office objects; the question mark must not touch the first title. */
+section[data-layout="THEME07-065"] .a03-brief-paper{margin-top:36px!important}
+section[data-layout="THEME07-065"] .a03-source-stack{margin-top:38px!important}
+section[data-layout="THEME07-065"] .a03-revision-stack{margin-top:38px!important}
+section[data-layout="THEME07-065"] .a03-archive-scene{margin-top:42px!important}
+/* Anchor the question mark to the memo rather than the heading. */
+section[data-layout="THEME07-065"] .a03-question{top:8px!important;right:-25px!important}
+/* Preserve the approved one-line centre title even when the editor restores its older line-break markup. */
+section[data-layout="THEME07-065"] .a03-core-title br{display:none!important}
 </style>
 </head>
 <body>
@@ -1999,7 +2087,7 @@ section[data-layout="THEME07-007"] .a02-focus {
 <div id="deck" class="dk-scope">
 
 <!-- Generated by scripts/render-deck.jsx -->
-<section class="slide imported-theme-slide " data-layout="THEME07-002" data-vm-slide-id="theme07_page002-1" data-vm-slide-key="theme07_page002" data-vm-layout="theme07_page002" data-vm-index="0" data-theme-pack="theme07" data-label="第 1 页"><div class="imported-theme-root" data-theme-key="theme07" data-page-key="theme07_page002" data-prop-controls="[{&quot;key&quot;:&quot;imageCount&quot;,&quot;label&quot;:&quot;图片数量&quot;,&quot;type&quot;:&quot;range&quot;,&quot;default&quot;:1,&quot;min&quot;:0,&quot;max&quot;:1,&quot;step&quot;:1,&quot;desc&quot;:&quot;右侧主视觉图片槽数量（0–1）。&quot;,&quot;publicKey&quot;:&quot;imageCount&quot;},{&quot;key&quot;:&quot;images&quot;,&quot;label&quot;:&quot;图片&quot;,&quot;type&quot;:&quot;images&quot;,&quot;default&quot;:[],&quot;countKey&quot;:&quot;imageCount&quot;,&quot;desc&quot;:&quot;右侧主视觉可替换图片。&quot;,&quot;publicKey&quot;:&quot;images&quot;},{&quot;key&quot;:&quot;showTimeline&quot;,&quot;label&quot;:&quot;年份时间轴&quot;,&quot;type&quot;:&quot;toggle&quot;,&quot;default&quot;:true,&quot;desc&quot;:&quot;正文下方 2026—2028 三年时间轴的显隐。&quot;,&quot;publicKey&quot;:&quot;showTimeline&quot;},{&quot;key&quot;:&quot;showLenses&quot;,&quot;label&quot;:&quot;透镜光斑&quot;,&quot;type&quot;:&quot;toggle&quot;,&quot;default&quot;:true,&quot;desc&quot;:&quot;右侧绿色面板上的透镜光斑装饰显隐。&quot;,&quot;publicKey&quot;:&quot;showLenses&quot;},{&quot;key&quot;:&quot;accentColor&quot;,&quot;label&quot;:&quot;主题色&quot;,&quot;type&quot;:&quot;select&quot;,&quot;display&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#8FD400&quot;,&quot;options&quot;:[{&quot;value&quot;:&quot;#8FD400&quot;,&quot;label&quot;:&quot;颜色 1&quot;},{&quot;value&quot;:&quot;#23C76A&quot;,&quot;label&quot;:&quot;颜色 2&quot;},{&quot;value&quot;:&quot;#2F7BFF&quot;,&quot;label&quot;:&quot;颜色 3&quot;},{&quot;value&quot;:&quot;#F2A93B&quot;,&quot;label&quot;:&quot;颜色 4&quot;},{&quot;value&quot;:&quot;#0D100A&quot;,&quot;label&quot;:&quot;颜色 5&quot;}],&quot;desc&quot;:&quot;品牌强调色（作用于结语短条与高亮）。&quot;,&quot;publicKey&quot;:&quot;accentColor&quot;}]" data-prop-defaults="{&quot;phaseLeft&quot;:&quot;Supply Chain Strategy&quot;,&quot;phaseRight&quot;:&quot;2026—2028&quot;,&quot;kicker&quot;:&quot;THREE-YEAR · STRATEGY&quot;,&quot;titleL1&quot;:&quot;链通全国&quot;,&quot;titleL2&quot;:&quot;高效履约&quot;,&quot;subPre&quot;:&quot;集团供应链体系三年（&quot;,&quot;years&quot;:&quot;2026-2028&quot;,&quot;subPost&quot;:&quot;）发展战略&quot;,&quot;summary&quot;:&quot;打通物流脉络，构筑产业护城河&quot;,&quot;logo&quot;:&quot;集 团 供 应 链&quot;,&quot;photoLabel&quot;:&quot;[ 物流网络 / 配送图景 ]&quot;,&quot;timeline&quot;:[&quot;2026&quot;,&quot;2027&quot;,&quot;2028&quot;],&quot;imageCount&quot;:1,&quot;images&quot;:[],&quot;showTimeline&quot;:true,&quot;showLenses&quot;:true,&quot;accentColor&quot;:&quot;#8FD400&quot;,&quot;renderSlot&quot;:null}"></div></section><section class="slide imported-theme-slide " data-layout="THEME07-007" data-vm-slide-id="theme07_page007-2" data-vm-slide-key="theme07_page007" data-vm-layout="theme07_page007" data-vm-index="1" data-theme-pack="theme07" data-label="第 2 页"><div class="imported-theme-root" data-theme-key="theme07" data-page-key="theme07_page007" data-prop-controls="[{&quot;key&quot;:&quot;cardCount&quot;,&quot;label&quot;:&quot;章节卡数量&quot;,&quot;type&quot;:&quot;range&quot;,&quot;default&quot;:8,&quot;min&quot;:3,&quot;max&quot;:8,&quot;step&quot;:1,&quot;desc&quot;:&quot;展示的章节卡数量（3–8）。&quot;,&quot;publicKey&quot;:&quot;cardCount&quot;},{&quot;key&quot;:&quot;columns&quot;,&quot;label&quot;:&quot;每行列数&quot;,&quot;type&quot;:&quot;select&quot;,&quot;display&quot;:&quot;tab&quot;,&quot;default&quot;:4,&quot;options&quot;:[{&quot;value&quot;:3,&quot;label&quot;:&quot;3 列&quot;},{&quot;value&quot;:4,&quot;label&quot;:&quot;4 列&quot;}],&quot;dependsOn&quot;:&quot;cardCount&quot;,&quot;dependsOnValues&quot;:[3,4,5,6],&quot;desc&quot;:&quot;章节卡的网格列数；3 列仅用于 6 张以内。&quot;,&quot;publicKey&quot;:&quot;columns&quot;},{&quot;key&quot;:&quot;focusEnabled&quot;,&quot;label&quot;:&quot;重点信息&quot;,&quot;type&quot;:&quot;toggle&quot;,&quot;default&quot;:true,&quot;desc&quot;:&quot;是否高亮某一章节卡作为阅读重点。&quot;,&quot;publicKey&quot;:&quot;focusEnabled&quot;},{&quot;key&quot;:&quot;focusIndex&quot;,&quot;label&quot;:&quot;重点元素&quot;,&quot;type&quot;:&quot;select&quot;,&quot;default&quot;:1,&quot;options&quot;:[{&quot;value&quot;:0,&quot;label&quot;:&quot;第 1 个&quot;},{&quot;value&quot;:1,&quot;label&quot;:&quot;第 2 个&quot;},{&quot;value&quot;:2,&quot;label&quot;:&quot;第 3 个&quot;},{&quot;value&quot;:3,&quot;label&quot;:&quot;第 4 个&quot;},{&quot;value&quot;:4,&quot;label&quot;:&quot;第 5 个&quot;},{&quot;value&quot;:5,&quot;label&quot;:&quot;第 6 个&quot;},{&quot;value&quot;:6,&quot;label&quot;:&quot;第 7 个&quot;},{&quot;value&quot;:7,&quot;label&quot;:&quot;第 8 个&quot;}],&quot;desc&quot;:&quot;选择被高亮的章节卡。&quot;,&quot;publicKey&quot;:&quot;focusIndex&quot;},{&quot;key&quot;:&quot;showDecorations&quot;,&quot;label&quot;:&quot;装饰文案&quot;,&quot;type&quot;:&quot;toggle&quot;,&quot;default&quot;:true,&quot;desc&quot;:&quot;序号水印与条码等装饰的显隐。&quot;,&quot;publicKey&quot;:&quot;showDecorations&quot;},{&quot;key&quot;:&quot;accentColor&quot;,&quot;label&quot;:&quot;主题色&quot;,&quot;type&quot;:&quot;select&quot;,&quot;display&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#86D62B&quot;,&quot;options&quot;:[{&quot;value&quot;:&quot;#86D62B&quot;,&quot;label&quot;:&quot;颜色 1&quot;},{&quot;value&quot;:&quot;#23C76A&quot;,&quot;label&quot;:&quot;颜色 2&quot;},{&quot;value&quot;:&quot;#2F7BFF&quot;,&quot;label&quot;:&quot;颜色 3&quot;},{&quot;value&quot;:&quot;#F2A93B&quot;,&quot;label&quot;:&quot;颜色 4&quot;},{&quot;value&quot;:&quot;#0E110B&quot;,&quot;label&quot;:&quot;颜色 5&quot;}],&quot;desc&quot;:&quot;品牌强调色。&quot;,&quot;publicKey&quot;:&quot;accentColor&quot;}]" data-prop-defaults="{&quot;eyebrow&quot;:&quot;Structure&quot;,&quot;title&quot;:&quot;报告结构&quot;,&quot;sub&quot;:&quot;从方法到结论的阅读路径&quot;,&quot;lead&quot;:&quot;整份报告按研究方法、市场全景、横向透视、产业链、典型案例、风险展望、结论和数据来源展开。&quot;,&quot;closing&quot;:&quot;先建立框架，再进入数据和判断。&quot;,&quot;chapters&quot;:[{&quot;no&quot;:&quot;01&quot;,&quot;zh&quot;:&quot;研究方法&quot;,&quot;en&quot;:&quot;Methodology&quot;},{&quot;no&quot;:&quot;02&quot;,&quot;zh&quot;:&quot;市场全景&quot;,&quot;en&quot;:&quot;Market Panorama&quot;},{&quot;no&quot;:&quot;03&quot;,&quot;zh&quot;:&quot;横向透视&quot;,&quot;en&quot;:&quot;Cross Section&quot;},{&quot;no&quot;:&quot;04&quot;,&quot;zh&quot;:&quot;产业链条&quot;,&quot;en&quot;:&quot;Value Chain&quot;},{&quot;no&quot;:&quot;05&quot;,&quot;zh&quot;:&quot;典型案例&quot;,&quot;en&quot;:&quot;Case Studies&quot;},{&quot;no&quot;:&quot;06&quot;,&quot;zh&quot;:&quot;风险展望&quot;,&quot;en&quot;:&quot;Risk &amp; Outlook&quot;},{&quot;no&quot;:&quot;07&quot;,&quot;zh&quot;:&quot;结论判断&quot;,&quot;en&quot;:&quot;Conclusion&quot;},{&quot;no&quot;:&quot;08&quot;,&quot;zh&quot;:&quot;数据来源&quot;,&quot;en&quot;:&quot;Data Sources&quot;}],&quot;cardCount&quot;:8,&quot;focusEnabled&quot;:true,&quot;focusIndex&quot;:1,&quot;columns&quot;:4,&quot;showDecorations&quot;:true,&quot;accentColor&quot;:&quot;#86D62B&quot;}"></div></section>
+<section class="slide imported-theme-slide " data-layout="THEME07-002" data-vm-slide-id="theme07_page002-1" data-vm-slide-key="theme07_page002" data-vm-layout="theme07_page002" data-vm-index="0" data-theme-pack="theme07" data-label="第 1 页"><div class="imported-theme-root" data-theme-key="theme07" data-page-key="theme07_page002" data-prop-controls="[{&quot;key&quot;:&quot;imageCount&quot;,&quot;label&quot;:&quot;图片数量&quot;,&quot;type&quot;:&quot;range&quot;,&quot;default&quot;:1,&quot;min&quot;:0,&quot;max&quot;:1,&quot;step&quot;:1,&quot;desc&quot;:&quot;右侧主视觉图片槽数量（0–1）。&quot;,&quot;publicKey&quot;:&quot;imageCount&quot;},{&quot;key&quot;:&quot;images&quot;,&quot;label&quot;:&quot;图片&quot;,&quot;type&quot;:&quot;images&quot;,&quot;default&quot;:[],&quot;countKey&quot;:&quot;imageCount&quot;,&quot;desc&quot;:&quot;右侧主视觉可替换图片。&quot;,&quot;publicKey&quot;:&quot;images&quot;},{&quot;key&quot;:&quot;showTimeline&quot;,&quot;label&quot;:&quot;年份时间轴&quot;,&quot;type&quot;:&quot;toggle&quot;,&quot;default&quot;:true,&quot;desc&quot;:&quot;正文下方 2026—2028 三年时间轴的显隐。&quot;,&quot;publicKey&quot;:&quot;showTimeline&quot;},{&quot;key&quot;:&quot;showLenses&quot;,&quot;label&quot;:&quot;透镜光斑&quot;,&quot;type&quot;:&quot;toggle&quot;,&quot;default&quot;:true,&quot;desc&quot;:&quot;右侧绿色面板上的透镜光斑装饰显隐。&quot;,&quot;publicKey&quot;:&quot;showLenses&quot;},{&quot;key&quot;:&quot;accentColor&quot;,&quot;label&quot;:&quot;主题色&quot;,&quot;type&quot;:&quot;select&quot;,&quot;display&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#8FD400&quot;,&quot;options&quot;:[{&quot;value&quot;:&quot;#8FD400&quot;,&quot;label&quot;:&quot;颜色 1&quot;},{&quot;value&quot;:&quot;#23C76A&quot;,&quot;label&quot;:&quot;颜色 2&quot;},{&quot;value&quot;:&quot;#2F7BFF&quot;,&quot;label&quot;:&quot;颜色 3&quot;},{&quot;value&quot;:&quot;#F2A93B&quot;,&quot;label&quot;:&quot;颜色 4&quot;},{&quot;value&quot;:&quot;#0D100A&quot;,&quot;label&quot;:&quot;颜色 5&quot;}],&quot;desc&quot;:&quot;品牌强调色（作用于结语短条与高亮）。&quot;,&quot;publicKey&quot;:&quot;accentColor&quot;}]" data-prop-defaults="{&quot;phaseLeft&quot;:&quot;Supply Chain Strategy&quot;,&quot;phaseRight&quot;:&quot;2026—2028&quot;,&quot;kicker&quot;:&quot;THREE-YEAR · STRATEGY&quot;,&quot;titleL1&quot;:&quot;链通全国&quot;,&quot;titleL2&quot;:&quot;高效履约&quot;,&quot;subPre&quot;:&quot;集团供应链体系三年（&quot;,&quot;years&quot;:&quot;2026-2028&quot;,&quot;subPost&quot;:&quot;）发展战略&quot;,&quot;summary&quot;:&quot;打通物流脉络，构筑产业护城河&quot;,&quot;logo&quot;:&quot;集 团 供 应 链&quot;,&quot;photoLabel&quot;:&quot;[ 物流网络 / 配送图景 ]&quot;,&quot;timeline&quot;:[&quot;2026&quot;,&quot;2027&quot;,&quot;2028&quot;],&quot;imageCount&quot;:1,&quot;images&quot;:[],&quot;showTimeline&quot;:true,&quot;showLenses&quot;:true,&quot;accentColor&quot;:&quot;#8FD400&quot;,&quot;renderSlot&quot;:null}"></div></section><section class="slide imported-theme-slide " data-layout="THEME07-007" data-vm-slide-id="theme07_page007-2" data-vm-slide-key="theme07_page007" data-vm-layout="theme07_page007" data-vm-index="1" data-theme-pack="theme07" data-label="第 2 页"><div class="imported-theme-root" data-theme-key="theme07" data-page-key="theme07_page007" data-prop-controls="[{&quot;key&quot;:&quot;cardCount&quot;,&quot;label&quot;:&quot;章节卡数量&quot;,&quot;type&quot;:&quot;range&quot;,&quot;default&quot;:8,&quot;min&quot;:3,&quot;max&quot;:8,&quot;step&quot;:1,&quot;desc&quot;:&quot;展示的章节卡数量（3–8）。&quot;,&quot;publicKey&quot;:&quot;cardCount&quot;},{&quot;key&quot;:&quot;columns&quot;,&quot;label&quot;:&quot;每行列数&quot;,&quot;type&quot;:&quot;select&quot;,&quot;display&quot;:&quot;tab&quot;,&quot;default&quot;:4,&quot;options&quot;:[{&quot;value&quot;:3,&quot;label&quot;:&quot;3 列&quot;},{&quot;value&quot;:4,&quot;label&quot;:&quot;4 列&quot;}],&quot;dependsOn&quot;:&quot;cardCount&quot;,&quot;dependsOnValues&quot;:[3,4,5,6],&quot;desc&quot;:&quot;章节卡的网格列数；3 列仅用于 6 张以内。&quot;,&quot;publicKey&quot;:&quot;columns&quot;},{&quot;key&quot;:&quot;focusEnabled&quot;,&quot;label&quot;:&quot;重点信息&quot;,&quot;type&quot;:&quot;toggle&quot;,&quot;default&quot;:true,&quot;desc&quot;:&quot;是否高亮某一章节卡作为阅读重点。&quot;,&quot;publicKey&quot;:&quot;focusEnabled&quot;},{&quot;key&quot;:&quot;focusIndex&quot;,&quot;label&quot;:&quot;重点元素&quot;,&quot;type&quot;:&quot;select&quot;,&quot;default&quot;:1,&quot;options&quot;:[{&quot;value&quot;:0,&quot;label&quot;:&quot;第 1 个&quot;},{&quot;value&quot;:1,&quot;label&quot;:&quot;第 2 个&quot;},{&quot;value&quot;:2,&quot;label&quot;:&quot;第 3 个&quot;},{&quot;value&quot;:3,&quot;label&quot;:&quot;第 4 个&quot;},{&quot;value&quot;:4,&quot;label&quot;:&quot;第 5 个&quot;},{&quot;value&quot;:5,&quot;label&quot;:&quot;第 6 个&quot;},{&quot;value&quot;:6,&quot;label&quot;:&quot;第 7 个&quot;},{&quot;value&quot;:7,&quot;label&quot;:&quot;第 8 个&quot;}],&quot;desc&quot;:&quot;选择被高亮的章节卡。&quot;,&quot;publicKey&quot;:&quot;focusIndex&quot;},{&quot;key&quot;:&quot;showDecorations&quot;,&quot;label&quot;:&quot;装饰文案&quot;,&quot;type&quot;:&quot;toggle&quot;,&quot;default&quot;:true,&quot;desc&quot;:&quot;序号水印与条码等装饰的显隐。&quot;,&quot;publicKey&quot;:&quot;showDecorations&quot;},{&quot;key&quot;:&quot;accentColor&quot;,&quot;label&quot;:&quot;主题色&quot;,&quot;type&quot;:&quot;select&quot;,&quot;display&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#86D62B&quot;,&quot;options&quot;:[{&quot;value&quot;:&quot;#86D62B&quot;,&quot;label&quot;:&quot;颜色 1&quot;},{&quot;value&quot;:&quot;#23C76A&quot;,&quot;label&quot;:&quot;颜色 2&quot;},{&quot;value&quot;:&quot;#2F7BFF&quot;,&quot;label&quot;:&quot;颜色 3&quot;},{&quot;value&quot;:&quot;#F2A93B&quot;,&quot;label&quot;:&quot;颜色 4&quot;},{&quot;value&quot;:&quot;#0E110B&quot;,&quot;label&quot;:&quot;颜色 5&quot;}],&quot;desc&quot;:&quot;品牌强调色。&quot;,&quot;publicKey&quot;:&quot;accentColor&quot;}]" data-prop-defaults="{&quot;eyebrow&quot;:&quot;Structure&quot;,&quot;title&quot;:&quot;报告结构&quot;,&quot;sub&quot;:&quot;从方法到结论的阅读路径&quot;,&quot;lead&quot;:&quot;整份报告按研究方法、市场全景、横向透视、产业链、典型案例、风险展望、结论和数据来源展开。&quot;,&quot;closing&quot;:&quot;先建立框架，再进入数据和判断。&quot;,&quot;chapters&quot;:[{&quot;no&quot;:&quot;01&quot;,&quot;zh&quot;:&quot;研究方法&quot;,&quot;en&quot;:&quot;Methodology&quot;},{&quot;no&quot;:&quot;02&quot;,&quot;zh&quot;:&quot;市场全景&quot;,&quot;en&quot;:&quot;Market Panorama&quot;},{&quot;no&quot;:&quot;03&quot;,&quot;zh&quot;:&quot;横向透视&quot;,&quot;en&quot;:&quot;Cross Section&quot;},{&quot;no&quot;:&quot;04&quot;,&quot;zh&quot;:&quot;产业链条&quot;,&quot;en&quot;:&quot;Value Chain&quot;},{&quot;no&quot;:&quot;05&quot;,&quot;zh&quot;:&quot;典型案例&quot;,&quot;en&quot;:&quot;Case Studies&quot;},{&quot;no&quot;:&quot;06&quot;,&quot;zh&quot;:&quot;风险展望&quot;,&quot;en&quot;:&quot;Risk &amp; Outlook&quot;},{&quot;no&quot;:&quot;07&quot;,&quot;zh&quot;:&quot;结论判断&quot;,&quot;en&quot;:&quot;Conclusion&quot;},{&quot;no&quot;:&quot;08&quot;,&quot;zh&quot;:&quot;数据来源&quot;,&quot;en&quot;:&quot;Data Sources&quot;}],&quot;cardCount&quot;:8,&quot;focusEnabled&quot;:true,&quot;focusIndex&quot;:1,&quot;columns&quot;:4,&quot;showDecorations&quot;:true,&quot;accentColor&quot;:&quot;#86D62B&quot;}"></div></section><section class="slide imported-theme-slide " data-layout="THEME07-065" data-vm-slide-id="theme07_page065-3" data-vm-slide-key="theme07_page065" data-vm-layout="theme07_page065" data-vm-index="2" data-theme-pack="theme07" data-label="会答，不等于会做"><div class="imported-theme-root" data-theme-key="theme07" data-page-key="theme07_page065" data-prop-controls="[{&quot;key&quot;:&quot;stepCount&quot;,&quot;label&quot;:&quot;流程节点&quot;,&quot;type&quot;:&quot;range&quot;,&quot;default&quot;:5,&quot;min&quot;:3,&quot;max&quot;:5,&quot;step&quot;:1,&quot;desc&quot;:&quot;工作流链路的节点数量（3–5）。&quot;,&quot;publicKey&quot;:&quot;stepCount&quot;},{&quot;key&quot;:&quot;focusEnabled&quot;,&quot;label&quot;:&quot;重点信息&quot;,&quot;type&quot;:&quot;toggle&quot;,&quot;default&quot;:true,&quot;desc&quot;:&quot;是否高亮工作流中的 AI 嵌入节点。&quot;,&quot;publicKey&quot;:&quot;focusEnabled&quot;},{&quot;key&quot;:&quot;focusIndex&quot;,&quot;label&quot;:&quot;重点元素&quot;,&quot;type&quot;:&quot;select&quot;,&quot;display&quot;:&quot;tab&quot;,&quot;default&quot;:2,&quot;options&quot;:[{&quot;value&quot;:0,&quot;label&quot;:&quot;第 1 个&quot;},{&quot;value&quot;:1,&quot;label&quot;:&quot;第 2 个&quot;},{&quot;value&quot;:2,&quot;label&quot;:&quot;第 3 个&quot;},{&quot;value&quot;:3,&quot;label&quot;:&quot;第 4 个&quot;},{&quot;value&quot;:4,&quot;label&quot;:&quot;第 5 个&quot;}],&quot;desc&quot;:&quot;选择被高亮的嵌入节点。&quot;,&quot;publicKey&quot;:&quot;focusIndex&quot;},{&quot;key&quot;:&quot;cardCount&quot;,&quot;label&quot;:&quot;卡片数量&quot;,&quot;type&quot;:&quot;range&quot;,&quot;default&quot;:4,&quot;min&quot;:2,&quot;max&quot;:4,&quot;step&quot;:1,&quot;desc&quot;:&quot;底部筛选维度卡数量（2–4）。&quot;,&quot;publicKey&quot;:&quot;cardCount&quot;},{&quot;key&quot;:&quot;showTags&quot;,&quot;label&quot;:&quot;标签行&quot;,&quot;type&quot;:&quot;toggle&quot;,&quot;default&quot;:true,&quot;desc&quot;:&quot;底部落地场景标签行的显隐。&quot;,&quot;publicKey&quot;:&quot;showTags&quot;},{&quot;key&quot;:&quot;tagCount&quot;,&quot;label&quot;:&quot;标签数量&quot;,&quot;type&quot;:&quot;range&quot;,&quot;default&quot;:5,&quot;min&quot;:2,&quot;max&quot;:5,&quot;step&quot;:1,&quot;desc&quot;:&quot;展示的场景标签数量（2–5）。&quot;,&quot;publicKey&quot;:&quot;tagCount&quot;},{&quot;key&quot;:&quot;showDecorations&quot;,&quot;label&quot;:&quot;装饰文案&quot;,&quot;type&quot;:&quot;toggle&quot;,&quot;default&quot;:true,&quot;desc&quot;:&quot;背景光晕与条码等装饰的显隐。&quot;,&quot;publicKey&quot;:&quot;showDecorations&quot;},{&quot;key&quot;:&quot;accentColor&quot;,&quot;label&quot;:&quot;主题色&quot;,&quot;type&quot;:&quot;select&quot;,&quot;display&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#86D62B&quot;,&quot;options&quot;:[{&quot;value&quot;:&quot;#86D62B&quot;,&quot;label&quot;:&quot;颜色 1&quot;},{&quot;value&quot;:&quot;#23C76A&quot;,&quot;label&quot;:&quot;颜色 2&quot;},{&quot;value&quot;:&quot;#2F7BFF&quot;,&quot;label&quot;:&quot;颜色 3&quot;},{&quot;value&quot;:&quot;#F2A93B&quot;,&quot;label&quot;:&quot;颜色 4&quot;},{&quot;value&quot;:&quot;#0E110B&quot;,&quot;label&quot;:&quot;颜色 5&quot;}],&quot;desc&quot;:&quot;品牌强调色，作用于嵌入节点、连接线与标签。&quot;,&quot;publicKey&quot;:&quot;accentColor&quot;}]" data-prop-defaults="{&quot;eyebrow&quot;:&quot;Vertical Strategy&quot;,&quot;segment&quot;:&quot;策略 · 筛选垂直应用&quot;,&quot;title&quot;:&quot;嵌入工作流&quot;,&quot;titleTail&quot;:&quot;策略 · 筛选垂直应用&quot;,&quot;lead&quot;:&quot;垂直应用要看是否嵌入刚性流程，而不是只看生成效果；好的垂直 AI 应用应该成为工作流的一部分。&quot;,&quot;closing&quot;:&quot;应用价值来自流程位置。&quot;,&quot;flowTitle&quot;:&quot;业务工作流 · AI 嵌入位置&quot;,&quot;steps&quot;:[{&quot;name&quot;:&quot;业务触发&quot;,&quot;en&quot;:&quot;Trigger&quot;,&quot;note&quot;:&quot;真实工作请求进入&quot;},{&quot;name&quot;:&quot;数据准备&quot;,&quot;en&quot;:&quot;Context&quot;,&quot;note&quot;:&quot;上下文与资料汇集&quot;},{&quot;name&quot;:&quot;AI 处理&quot;,&quot;en&quot;:&quot;AI Embed&quot;,&quot;note&quot;:&quot;嵌入式生成与决策&quot;,&quot;embed&quot;:true},{&quot;name&quot;:&quot;人工复核&quot;,&quot;en&quot;:&quot;Review&quot;,&quot;note&quot;:&quot;专家确认与修订&quot;},{&quot;name&quot;:&quot;结果交付&quot;,&quot;en&quot;:&quot;Deliver&quot;,&quot;note&quot;:&quot;回写至业务系统&quot;}],&quot;embedNodeTag&quot;:&quot;嵌入点&quot;,&quot;cardsTitle&quot;:&quot;筛选维度 · Retention&quot;,&quot;cards&quot;:[{&quot;name&quot;:&quot;付费留存&quot;,&quot;en&quot;:&quot;Retention&quot;,&quot;note&quot;:&quot;续费率能否穿越预算周期&quot;},{&quot;name&quot;:&quot;使用频次&quot;,&quot;en&quot;:&quot;Frequency&quot;,&quot;note&quot;:&quot;是否进入高频日常动作&quot;},{&quot;name&quot;:&quot;席位扩张&quot;,&quot;en&quot;:&quot;Seat Growth&quot;,&quot;note&quot;:&quot;团队内部能否自然扩散&quot;},{&quot;name&quot;:&quot;净收入留存&quot;,&quot;en&quot;:&quot;NRR&quot;,&quot;note&quot;:&quot;老客户是否持续增购&quot;}],&quot;tagsTitle&quot;:&quot;落地场景&quot;,&quot;tags&quot;:[&quot;法律&quot;,&quot;医疗&quot;,&quot;客服&quot;,&quot;企业搜索&quot;,&quot;开发者工具&quot;],&quot;stepCount&quot;:5,&quot;focusEnabled&quot;:true,&quot;focusIndex&quot;:2,&quot;cardCount&quot;:4,&quot;showTags&quot;:true,&quot;tagCount&quot;:5,&quot;showDecorations&quot;:true,&quot;accentColor&quot;:&quot;#86D62B&quot;}"></div></section>
 
 </div>
 </div>
@@ -2067,8 +2155,8 @@ section[data-layout="THEME07-007"] .a02-focus {
     </div>
   </div>
 </aside>
-<script id="preview-options" type="application/json">{"themePacks":{},"current":{"themePack":"theme07"},"language":"zh","i18n":{"冷白调研风":"Cool white research style","调研报告、白皮书、竞品分析、学术/政策型表达":"Research reports, white papers, competitive analysis, academic/policy-style presentations","研究机构、咨询团队、政府/高校/智库、B2B 团队":"Research institutions, consulting teams, government/academia/think tanks, B2B teams","封面 链通全国":"Cover · Nationwide connectivity","图片数量":"Image count","右侧主视觉图片槽数量（0–1）。":"Number of main visual image slots on the right (0-1).","图片":"Image","右侧主视觉可替换图片。":"Replaceable main visual image on the right.","年份时间轴":"Year timeline","正文下方 2026—2028 三年时间轴的显隐。":"Show/hide the 2026-2028 three-year timeline below the body text.","透镜光斑":"Lens bokeh","右侧绿色面板上的透镜光斑装饰显隐。":"Show/hide the lens bokeh decoration on the green panel on the right.","主题色":"Theme color","品牌强调色（作用于结语短条与高亮）。":"Brand accent color (applies to the closing bar and highlights).","颜色 1":"Color 1","颜色 2":"Color 2","颜色 3":"Color 3","颜色 4":"Color 4","颜色 5":"Color 5","目录 Contents":"Contents","章节卡数量":"Chapter card count","展示的章节卡数量（3–8）。":"Number of chapter cards shown (3-8).","每行列数":"Columns per row","章节卡的网格列数；3 列仅用于 6 张以内。":"Number of grid columns for the chapter cards; 3 columns applies only up to 6 cards.","3 列":"3 columns","4 列":"4 columns","重点信息":"Key info","是否高亮某一章节卡作为阅读重点。":"Whether to highlight a chapter card as the reading focus.","重点元素":"Key element","选择被高亮的章节卡。":"Select the highlighted chapter card.","第 1 个":"Item 1","第 2 个":"Item 2","第 3 个":"Item 3","第 4 个":"Item 4","第 5 个":"Item 5","第 6 个":"Item 6","第 7 个":"Item 7","第 8 个":"Item 8","装饰文案":"Decorative text","序号水印与条码等装饰的显隐。":"Show/hide decorations such as the index watermark and barcode.","品牌强调色。":"Brand accent color."}}</script>
-<script id="deck-view-model" type="application/json">{"version":1,"title":"AI Agent 赋能基础办公","themePack":"theme07","slides":[{"id":"theme07_page002-1","key":"theme07_page002","layout":"theme07_page002","dataLayout":"THEME07-002","themePack":"theme07","label":"第 1 页","props":{"phaseLeft":"公司业务骨干 AI 实训","phaseRight":"第一期 · 课程 1","kicker":"","titleL1":"AI Agent","titleL2":"赋能基础办公","subPre":"","years":"","subPost":"","summary":"","logo":"","photoLabel":"","timeline":["理解 Agent","认识智能体工具","掌握人机协作方法"],"showTimeline":false,"images":["assets/user-media/a-01-agent-v6.png"],"imageCount":1,"accentColor":"#176BFF"},"media":{}},{"id":"theme07_page007-2","key":"theme07_page007","layout":"theme07_page007","dataLayout":"THEME07-007","themePack":"theme07","label":"第 2 页","props":{"eyebrow":"","title":"","sub":"","lead":"","closing":"","chapters":[{"no":"01","zh":"理解 Agent","en":"从对话到执行任务"},{"no":"02","zh":"上手智能体工具","en":"安装配置与基本使用"},{"no":"03","zh":"掌握人机协作","en":"定义 · 执行 · 验收"},{"no":"04","zh":"办公场景实战","en":"周报　总结　营销　知识库"}],"cardCount":4,"columns":3,"focusEnabled":false,"focusIndex":0,"showDecorations":false,"accentColor":"#176BFF"},"media":{}}],"state":{"slideOrder":["theme07_page002-1","theme07_page007-2"],"text":{"text:deck:p0-1-1":"\u003cspan class=\"l1\">AI Agent\u003c/span>\u003cspan class=\"l2\">赋能基础办公\u003c/span>"},"media":{},"props":{},"skippedSlides":[],"deletedSlides":[],"duplicatedSlides":[],"__deckSignature":"-1660075588"}}</script>
+<script id="preview-options" type="application/json">{"themePacks":{},"current":{"themePack":"theme07"},"language":"zh","i18n":{"冷白调研风":"Cool white research style","调研报告、白皮书、竞品分析、学术/政策型表达":"Research reports, white papers, competitive analysis, academic/policy-style presentations","研究机构、咨询团队、政府/高校/智库、B2B 团队":"Research institutions, consulting teams, government/academia/think tanks, B2B teams","封面 链通全国":"Cover · Nationwide connectivity","图片数量":"Image count","右侧主视觉图片槽数量（0–1）。":"Number of main visual image slots on the right (0-1).","图片":"Image","右侧主视觉可替换图片。":"Replaceable main visual image on the right.","年份时间轴":"Year timeline","正文下方 2026—2028 三年时间轴的显隐。":"Show/hide the 2026-2028 three-year timeline below the body text.","透镜光斑":"Lens bokeh","右侧绿色面板上的透镜光斑装饰显隐。":"Show/hide the lens bokeh decoration on the green panel on the right.","主题色":"Theme color","品牌强调色（作用于结语短条与高亮）。":"Brand accent color (applies to the closing bar and highlights).","颜色 1":"Color 1","颜色 2":"Color 2","颜色 3":"Color 3","颜色 4":"Color 4","颜色 5":"Color 5","目录 Contents":"Contents","章节卡数量":"Chapter card count","展示的章节卡数量（3–8）。":"Number of chapter cards shown (3-8).","每行列数":"Columns per row","章节卡的网格列数；3 列仅用于 6 张以内。":"Number of grid columns for the chapter cards; 3 columns applies only up to 6 cards.","3 列":"3 columns","4 列":"4 columns","重点信息":"Key info","是否高亮某一章节卡作为阅读重点。":"Whether to highlight a chapter card as the reading focus.","重点元素":"Key element","选择被高亮的章节卡。":"Select the highlighted chapter card.","第 1 个":"Item 1","第 2 个":"Item 2","第 3 个":"Item 3","第 4 个":"Item 4","第 5 个":"Item 5","第 6 个":"Item 6","第 7 个":"Item 7","第 8 个":"Item 8","装饰文案":"Decorative text","序号水印与条码等装饰的显隐。":"Show/hide decorations such as the index watermark and barcode.","品牌强调色。":"Brand accent color.","策略 垂直应用":"Strategy Vertical applications","流程节点":"Process node","工作流链路的节点数量（3–5）。":"Number of nodes in the workflow chain (3–5).","是否高亮工作流中的 AI 嵌入节点。":"Whether to highlight the AI-embedded node in the workflow.","选择被高亮的嵌入节点。":"Select which embedded node is highlighted.","卡片数量":"Card count","底部筛选维度卡数量（2–4）。":"Number of filter-dimension cards at the bottom (2–4).","标签行":"Label row","底部落地场景标签行的显隐。":"Show or hide the bottom row of use-case tags.","标签数量":"Label count","展示的场景标签数量（2–5）。":"Number of scenario tags shown (2–5).","背景光晕与条码等装饰的显隐。":"Show or hide decorations such as background glow and barcode.","品牌强调色，作用于嵌入节点、连接线与标签。":"Brand accent color, applied to the embedded node, connector lines, and tags."}}</script>
+<script id="deck-view-model" type="application/json">{"version":1,"title":"AI Agent 赋能基础办公","themePack":"theme07","slides":[{"id":"theme07_page002-1","key":"theme07_page002","layout":"theme07_page002","dataLayout":"THEME07-002","themePack":"theme07","label":"第 1 页","props":{"phaseLeft":"公司业务骨干 AI 实训","phaseRight":"第一期 · 课程 1","kicker":"","titleL1":"AI Agent","titleL2":"赋能基础办公","subPre":"","years":"","subPost":"","summary":"","logo":"","photoLabel":"","timeline":["理解 Agent","认识智能体工具","掌握人机协作方法"],"showTimeline":false,"images":["assets/user-media/a-01-agent-v6.png"],"imageCount":1,"accentColor":"#176BFF"},"media":{}},{"id":"theme07_page007-2","key":"theme07_page007","layout":"theme07_page007","dataLayout":"THEME07-007","themePack":"theme07","label":"第 2 页","props":{"eyebrow":"","title":"","sub":"","lead":"","closing":"","chapters":[{"no":"01","zh":"理解 Agent","en":"从对话到执行任务"},{"no":"02","zh":"上手智能体工具","en":"安装配置与基本使用"},{"no":"03","zh":"掌握人机协作","en":"定义 · 执行 · 验收"},{"no":"04","zh":"办公场景实战","en":"周报　总结　营销　知识库"}],"cardCount":4,"columns":3,"focusEnabled":false,"focusIndex":0,"showDecorations":false,"accentColor":"#176BFF"},"media":{}},{"id":"theme07_page065-3","key":"theme07_page065","layout":"theme07_page065","dataLayout":"THEME07-065","themePack":"theme07","label":"会答，不等于会做","props":{"eyebrow":"开场 · 任务断点","segment":"从回答到完成","title":"会答，不等于会做","titleTail":"","lead":"办公任务的难点，通常发生在信息、执行与验收之间。","closing":"Agent 参与完成任务","flowTitle":"一项办公任务，往往这样被打断","steps":[{"name":"零散材料","en":"信息分散","note":"邮件、文档、表格、会议记录","embed":false},{"name":"人工推进","en":"步骤重复","note":"查找、整理、切换工具、反复补充","embed":false},{"name":"交付与核对","en":"结果难验收","note":"汇总、修改、确认是否可用","embed":false}],"stepCount":3,"embedNodeTag":"","cardsTitle":"我们真正需要的能力","cards":[{"name":"理解上下文","en":"IN CONTEXT","note":"把分散材料组织成可用信息"},{"name":"推动任务闭环","en":"TO DELIVERY","note":"从执行过程走向可验收交付"}],"cardCount":2,"tagsTitle":"","tags":["",""],"showTags":false,"tagCount":2,"focusEnabled":false,"focusIndex":0,"showDecorations":false,"accentColor":"#2F7BFF"},"media":{}}],"state":{"slideOrder":["theme07_page002-1","theme07_page007-2","theme07_page065-3"],"text":{"text:theme07_page065:p1-1-5-1":"把这件事做好\u003cdiv>\u003cbr>\u003c/div>","text:theme07_page065:p1-1-5-0":"工作清单\u003cspan class=\"a03-core-status\">\u003c/span>","text:theme07_page065:p1-1-5-3":"\u003cspan>说清需求\u003c/span>\u003cspan>找齐信息\u003c/span>\u003cspan>沟通修改\u003c/span>\u003cspan>再回头确认\u003c/span>","text:theme07_page065:p1-0-2":"从想清楚，到交出去，很多环节都需要反复沟通处理。","text:theme07_page065:p1-0-1":"完成一项工作，背后要做多少事情？","text:theme07_page065:p1-1-4-1":"\u003cbr>","text:theme07_page065:p1-1-1-1":"\u003cbr>","text:theme07_page065:p1-1-5-2":"说清需求、找齐信息、沟通修改，常常还要回头再来一遍。","text:theme07_page065:p1-1-1-0":"需求说不清楚","text:theme07_page065:p1-1-3-0":"总是反复调整","text:theme07_page065:p1-1-4-0":"成果无法复用","text:theme07_page065:p1-1-2-0":"信息搜集不全","text:theme07_page065:p1-1-3-1":"\u003cbr>","text:theme07_page065:p1-1-1-2":"\u003cb class=\"a03-question\">?\u003c/b>","text:theme07_page065:p1-1-2-1":"\u003cbr>","text:theme07_page065:p1-1-3-2":"\u003cspan class=\"a03-revision-page back\">\u003c/span>\u003cspan class=\"a03-revision-page front\">\u003cspan class=\"a03-revision-doc-title\">方案草稿\u003c/span>\u003ci class=\"a03-edit-row\">\u003c/i>\u003ci class=\"a03-edit-row short\">\u003c/i>\u003ci class=\"a03-edit-row red\">\u003c/i>\u003cspan class=\"a03-revision-highlight\">待补信息\u003c/span>\u003c/span>\u003cspan class=\"a03-edit-bubble\">\u003c/span>"},"media":{},"props":{},"skippedSlides":[],"deletedSlides":[],"duplicatedSlides":[],"__deckSignature":"1921432293"}}</script>
 <script id="embedded-text-state" type="application/json">{}</script>
 <script>
 /* =============== Deck UI Language (i18n) =============== */
@@ -2694,7 +2782,11 @@ section[data-layout="THEME07-007"] .a02-focus {
   function compactStatePropsFromRender(slideId, renderProps){
     const defaults = getComponentDefaultSlideProps(slideId);
     const source = getSlideSourceProps(slideId);
-    const authored = compactAuthoredPropValue(renderProps || {}, defaults, source, '');
+    // 默认值剔除时必须看到 HTML 内嵌保存层(baseState.props):用户把颜色改回组件
+    // 默认值时,如果保存层里是旧颜色,当前默认值仍是一个必须保留的显式覆盖。但最后只能相对
+    // goal source 做根层 diff;若再相对 baseState diff,刚烧回 HTML 的媒体等值会在重新打开时被清空。
+    const fallback = {...source, ...(baseState.props?.[slideId] || {})};
+    const authored = compactAuthoredPropValue(renderProps || {}, defaults, fallback, '');
     if(!authored || typeof authored !== 'object' || Array.isArray(authored)) return {};
     return diffAuthoredRootForState(authored, source);
   }
@@ -8877,38 +8969,31 @@ refreshRailCatalog();
 })();
 </script>
 <script id="course-brand-mark">
-document.addEventListener('DOMContentLoaded', function () {
-  var slide = document.querySelector('section[data-layout="THEME07-002"]');
-  if (!slide || slide.querySelector('.ptpress-brand')) return;
-  var logo = document.createElement('img');
-  logo.className = 'ptpress-brand';
-  logo.src = 'assets/user-media/logo.png';
-  logo.alt = '人民邮电出版社';
-  slide.appendChild(logo);
-});
+document.addEventListener('DOMContentLoaded',function(){var slide=document.querySelector('section[data-layout="THEME07-002"]');if(!slide||slide.querySelector('.ptpress-brand'))return;var logo=document.createElement('img');logo.className='ptpress-brand';logo.src='assets/user-media/logo.png';logo.alt='人民邮电出版社';slide.appendChild(logo);});
 </script>
 <script id="a02-route-visual">
-(function () {
-  function mountA02Visual() {
-    var hosts = document.querySelectorAll('section[data-layout="THEME07-007"] .aic-toc');
-    hosts.forEach(function (host) {
-      if (host.querySelector('.a02-visual')) return;
-      var visual = document.createElement('div');
-      visual.className = 'a02-visual';
-      visual.setAttribute('aria-hidden', 'true');
-      visual.innerHTML = '<span class="a02-plane p1"></span><span class="a02-plane p2"></span><span class="a02-plane p3"></span><span class="a02-plane p4"></span><span class="a02-focus"></span>';
-      host.appendChild(visual);
-    });
-  }
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', mountA02Visual, { once: true });
-  } else {
-    mountA02Visual();
-  }
-  var observer = new MutationObserver(mountA02Visual);
-  observer.observe(document.documentElement, { childList: true, subtree: true });
-  setTimeout(function () { observer.disconnect(); }, 5000);
-})();
+(function(){function mountA02Visual(){document.querySelectorAll('section[data-layout="THEME07-007"] .aic-toc').forEach(function(host){if(host.querySelector('.a02-visual'))return;var visual=document.createElement('div');visual.className='a02-visual';visual.setAttribute('aria-hidden','true');visual.innerHTML='<span class="a02-plane p1"></span><span class="a02-plane p2"></span><span class="a02-plane p3"></span><span class="a02-plane p4"></span><span class="a02-focus"></span>';host.appendChild(visual);});}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',mountA02Visual,{once:true});}else{mountA02Visual();}var observer=new MutationObserver(mountA02Visual);observer.observe(document.documentElement,{childList:true,subtree:true});setTimeout(function(){observer.disconnect();},5000);})();
+</script>
+<script id="a03-workbench-visual">
+(function(){function mountA03(){document.querySelectorAll('section[data-layout="THEME07-065"]').forEach(function(slide){if(slide.querySelector('.a03-reframe'))return;var page=document.createElement('div');page.className='a03-reframe';page.innerHTML='<header class="a03-header"><p class="a03-kicker">日常办公的真实样子</p><h1 class="a03-title">一件事，为什么总是越做越乱？</h1><p class="a03-lead">难的往往不是写出结果，而是处理一路上的零碎。</p></header><div class="a03-workspace" aria-hidden="true"><svg class="a03-wires" viewBox="0 0 1760 640" preserveAspectRatio="none"><path d="M 370 115 C 560 120, 635 215, 770 265"></path><path d="M 1410 120 C 1240 126, 1130 205, 1010 260"></path><path d="M 420 540 C 600 500, 665 430, 770 378"></path><path d="M 1390 530 C 1220 500, 1120 430, 1010 380"></path><circle cx="370" cy="115" r="5"></circle><circle cx="1410" cy="120" r="5"></circle><circle cx="420" cy="540" r="5"></circle><circle cx="1390" cy="530" r="5"></circle></svg><article class="a03-fragment a03-fragment--brief"><h2 class="a03-fragment-title">说不清</h2><p class="a03-fragment-copy">到底要做到什么样？</p><div class="a03-paper a03-brief-paper"><b class="a03-question">?</b></div><span class="a03-comment"><svg class="a03-icon" viewBox="0 0 24 24"><path d="M20 14a4 4 0 0 1-4 4H8l-4 3v-7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4h12a4 4 0 0 1 4 4z"></path><path d="M7 9h10M7 13h6"></path></svg>待确认</span></article><article class="a03-fragment a03-fragment--source"><h2 class="a03-fragment-title">找不齐</h2><p class="a03-fragment-copy">资料和素材散在不同地方。</p><div class="a03-source-stack"><span class="a03-folder"></span><span class="a03-mini-file one"><svg class="a03-icon" viewBox="0 0 24 24"><path d="M4 4h16v16H4z"></path><circle cx="9" cy="9" r="1.5"></circle><path d="m5 18 5-5 3 3 3-4 3 3"></path></svg><i></i></span><span class="a03-mini-file two"><svg class="a03-icon" viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"></path><path d="M15 3v5h5M9 12h6M9 16h6"></path></svg><i></i></span><span class="a03-search"><svg class="a03-icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"></circle><path d="m16 16 4 4"></path></svg></span></div></article><article class="a03-fragment a03-fragment--revision"><h2 class="a03-fragment-title">改不完</h2><p class="a03-fragment-copy">补充、沟通、修改不断发生。</p><div class="a03-revision-stack"><span class="a03-revision-page back"></span><span class="a03-revision-page front"><i class="a03-edit-row"></i><i class="a03-edit-row short"></i><i class="a03-edit-row red"></i><i class="a03-edit-row short"></i></span><span class="a03-edit-bubble"></span></div></article><article class="a03-fragment a03-fragment--archive"><h2 class="a03-fragment-title">留不住</h2><p class="a03-fragment-copy">下次遇到，还是要重新找。</p><div class="a03-archive-scene"><span class="a03-archive-folder"></span><span class="a03-old-result"><svg class="a03-icon" viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"></path><path d="M15 3v5h5M9 12h6M9 16h4"></path></svg><i></i></span><span class="a03-history"><svg class="a03-icon" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7"></path><path d="M3 4v5h5M12 7v5l3 2"></path></svg></span></div></article><article class="a03-core"><p class="a03-core-kicker">待完成成果 <span class="a03-core-status"></span></p><h2 class="a03-core-title">把这件事<br>做好</h2><i class="a03-core-rule"></i><i class="a03-core-rule short"></i><i class="a03-core-rule"></i><span class="a03-core-tag">还有信息待补</span></article></div><p class="a03-footer">看起来是一件事，实际上是一串零碎环节。</p>';slide.appendChild(page);});}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',mountA03,{once:true});}else{mountA03();}var observer=new MutationObserver(mountA03);observer.observe(document.documentElement,{childList:true,subtree:true});setTimeout(function(){observer.disconnect();},5000);})();
+</script>
+<script id="a03-slide-label">
+(function(){function syncA03Label(){document.querySelectorAll('section[data-layout="THEME07-065"]').forEach(function(slide){slide.dataset.label='一件事，为什么总是越做越乱？';});}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',syncA03Label,{once:true});}else{syncA03Label();}})();
+</script>
+<script id="a03-copy-refinement">
+(function(){function refineA03(){document.querySelectorAll('section[data-layout="THEME07-065"] .a03-reframe').forEach(function(page){var kicker=page.querySelector('.a03-kicker'),title=page.querySelector('.a03-title'),lead=page.querySelector('.a03-lead'),footer=page.querySelector('.a03-footer'),core=page.querySelector('.a03-core'),fragments=page.querySelectorAll('.a03-fragment');if(kicker)kicker.textContent='日常办公的真实样子';if(title)title.textContent='一件工作，背后有多少事？';if(lead)lead.textContent='从想清楚，到交出去，很多事都要自己一遍遍处理。';[['事情说不清','到底要做到什么样？'],['信息找不齐','资料和素材散在不同地方。'],['过程总反复','补充、沟通、修改不断发生。'],['成果留不下','下次遇到，还是要重新找。']].forEach(function(copy,index){var fragment=fragments[index];if(!fragment)return;var heading=fragment.querySelector('.a03-fragment-title'),body=fragment.querySelector('.a03-fragment-copy');if(heading)heading.textContent=copy[0];if(body)body.textContent=copy[1];});if(core)core.innerHTML='<p class="a03-core-kicker">待完成成果 <span class="a03-core-status"></span></p><h2 class="a03-core-title">一件事，<br>不是一路做到底</h2><p class="a03-core-copy">说清需求、找齐信息、沟通修改，常常还要回头再来一遍。</p><div class="a03-core-loop"><span>说清需求</span><span>找齐信息</span><span>沟通修改</span><span>再回头确认</span></div>';if(footer)footer.remove();});document.querySelectorAll('section[data-layout="THEME07-065"]').forEach(function(slide){slide.dataset.label='一件工作，背后有多少事？';});}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',refineA03,{once:true});}else{refineA03();}})();
+</script>
+<script id="a03-user-edit-sync">
+(function(){function syncUserEdits(){document.querySelectorAll('section[data-layout="THEME07-065"] .a03-reframe').forEach(function(page){var title=page.querySelector('.a03-title'),lead=page.querySelector('.a03-lead'),core=page.querySelector('.a03-core'),fragments=page.querySelectorAll('.a03-fragment');if(title)title.textContent='完成一件工作，背后要做多少事情？';if(lead)lead.textContent='从想清楚，到交出去，很多环节都需要反复沟通处理。';if(fragments[3]){var archiveCopy=fragments[3].querySelector('.a03-fragment-copy');if(archiveCopy)archiveCopy.textContent='下次遇到，还是要重新走一遍流程。';}if(core)core.innerHTML='<p class="a03-core-kicker">工作清单 <span class="a03-core-status"></span></p><h2 class="a03-core-title">把这件事<br>做好</h2><p class="a03-core-copy">说清需求、找齐信息、沟通修改，常常还要回头再来一遍。</p><div class="a03-core-loop"><span>说清需求</span><span>找齐信息</span><span>沟通修改</span><span>再回头确认</span></div>';});document.querySelectorAll('section[data-layout="THEME07-065"]').forEach(function(slide){slide.dataset.label='完成一件工作，背后要做多少事情？';});}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',syncUserEdits,{once:true});}else{syncUserEdits();}})();
+</script>
+<script id="a03-revision-paper-detail-script">
+(function(){function detailRevision(){document.querySelectorAll('section[data-layout="THEME07-065"] .a03-reframe').forEach(function(page){var fragments=page.querySelectorAll('.a03-fragment'),revision=fragments[2];if(!revision)return;var heading=revision.querySelector('.a03-fragment-title'),front=revision.querySelector('.a03-revision-page.front');if(heading)heading.textContent='总是反复调整';if(front)front.innerHTML='<span class="a03-revision-doc-title">方案草稿</span><i class="a03-edit-row"></i><i class="a03-edit-row short"></i><i class="a03-edit-row red"></i><span class="a03-revision-highlight">待补信息</span>';});}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',detailRevision,{once:true});}else{detailRevision();}})();
+</script>
+<script id="a03-current-edit-sync">
+(function(){function syncCurrentA03(){document.querySelectorAll('section[data-layout="THEME07-065"] .a03-reframe').forEach(function(page){var title=page.querySelector('.a03-title'),fragments=page.querySelectorAll('.a03-fragment');if(title)title.textContent='完成一项工作，背后要做多少事情？';[['需求说不清楚',''],['信息搜集不全',''],['总是反复调整',''],['成果无法复用','']].forEach(function(copy,index){var fragment=fragments[index];if(!fragment)return;var heading=fragment.querySelector('.a03-fragment-title'),body=fragment.querySelector('.a03-fragment-copy');if(heading)heading.textContent=copy[0];if(body)body.textContent=copy[1];});});document.querySelectorAll('section[data-layout="THEME07-065"]').forEach(function(slide){slide.dataset.label='完成一项工作，背后要做多少事情？';});}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',syncCurrentA03,{once:true});}else{syncCurrentA03();}})();
+</script>
+<script id="a03-pptx-fidelity-fallback">
+(function(){function markA03ForRasterExport(){document.querySelectorAll('section[data-layout="THEME07-065"] .a03-reframe').forEach(function(page){page.classList.add('bt-unicorn-frame');page.dataset.exportMode='raster-fidelity';});}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',markA03ForRasterExport,{once:true});}else{markA03ForRasterExport();}})();
 </script>
 </body>
 </html>
