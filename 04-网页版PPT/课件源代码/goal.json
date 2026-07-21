@@ -4,7 +4,7 @@
   "audience": "公司跨部门业务骨干",
   "owner": "张金京",
   "randomSeed": "agent-office-workbench-20260721-a03",
-  "pageCount": 3,
+  "pageCount": 4,
   "themePack": "theme07",
   "slides": [
     {
@@ -129,6 +129,20 @@
         "focusIndex": 0,
         "showDecorations": false,
         "accentColor": "#2F7BFF"
+      }
+    },
+    {
+      "layout": "theme07_page066",
+      "props": {
+        "title": "AI 能帮我们做什么？",
+        "lead": "AI 的能力，正从回答一个问题，走向参与推进一件事。",
+        "stages": [
+          "2022—2024｜你问一个问题，它给你一个回答",
+          "2025｜你把材料交给它，它帮你先理出头绪",
+          "现在｜你交代要完成什么，它能参与推进任务"
+        ],
+        "conclusion": "当 AI 不只回答，而是能围绕目标和要求推进任务时，我们开始把它称为 Agent。",
+        "accentColor": "#176BFF"
       }
     }
   ]
