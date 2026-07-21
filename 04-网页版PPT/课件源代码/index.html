@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" type="image/png" href="assets/skill/dashi-ppt-favicon.png">
-<title>Agent 赋能基础办公</title>
+<title>AI Agent 赋能基础办公</title>
 <!-- Self-hosted fonts (no external CDN): Anton, Archivo, Caveat, IBM Plex Mono, IBM Plex Sans, Inter, JetBrains Mono, Newsreader, Space Grotesk, Space Mono. -->
 <!-- Noto Sans SC / Noto Serif SC / Zhi Mang Xing are NOT self-hosted (unicode-range-sharded CJK webfonts exceed size budget); system CJK fonts are used as fallback via the --sans / --sans-zh stacks below. -->
 <style>
@@ -1839,56 +1839,113 @@
   }
 
 </style>
-<style id="a01-studio-refinement">
+<style id="course-studio-refinement">
+/* A-01 cover refinement */
 section[data-layout="THEME07-002"] .kicker,
 section[data-layout="THEME07-002"] .sub,
 section[data-layout="THEME07-002"] .foot,
-section[data-layout="THEME07-002"] .logo {
-  display: none !important;
-}
-section[data-layout="THEME07-002"] .body {
-  justify-content: center !important;
-}
-section[data-layout="THEME07-002"] h1 {
-  font-size: 0 !important;
-  line-height: 1 !important;
-  letter-spacing: 0 !important;
-}
+section[data-layout="THEME07-002"] .logo { display:none !important; }
+section[data-layout="THEME07-002"] .body { justify-content:center !important; }
+section[data-layout="THEME07-002"] h1 { font-size:0 !important; line-height:1 !important; letter-spacing:0 !important; }
 section[data-layout="THEME07-002"] h1 .l1 {
-  display: block !important;
-  color: #176bff !important;
-  font-family: Inter, "Arial Black", "Noto Sans SC", "Microsoft YaHei", sans-serif !important;
-  font-size: 146px !important;
-  font-weight: 900 !important;
-  line-height: .9 !important;
-  letter-spacing: -7px !important;
+  display:block !important; color:#176bff !important;
+  font-family:Inter,"Arial Black","Noto Sans SC","Microsoft YaHei",sans-serif !important;
+  font-size:146px !important; font-weight:900 !important; line-height:.9 !important; letter-spacing:-7px !important;
 }
 section[data-layout="THEME07-002"] h1 .l2 {
-  display: block !important;
-  margin-top: 48px !important;
-  color: #0b1528 !important;
-  font-family: "Noto Sans SC", "Microsoft YaHei", sans-serif !important;
-  font-size: 92px !important;
-  font-weight: 900 !important;
-  line-height: 1.04 !important;
-  letter-spacing: 0 !important;
+  display:block !important; margin-top:48px !important; color:#0b1528 !important;
+  font-family:"Noto Sans SC","Microsoft YaHei",sans-serif !important;
+  font-size:92px !important; font-weight:900 !important; line-height:1.04 !important; letter-spacing:0 !important;
 }
-section[data-layout="THEME07-002"] .timeline {
-  margin-top: 126px !important;
-}
-section[data-layout="THEME07-002"] .timeline .yr {
-  font-size: 29px !important;
-  font-weight: 700 !important;
-  letter-spacing: .1px !important;
-}
+section[data-layout="THEME07-002"] .timeline { display:none !important; }
+section[data-layout="THEME07-002"] .timeline .yr { font-size:29px !important; font-weight:700 !important; letter-spacing:.1px !important; }
 section[data-layout="THEME07-002"] .ptpress-brand {
-  position: absolute;
-  z-index: 12;
-  top: 8px;
-  right: 24px;
-  width: 230px;
-  height: auto;
-  pointer-events: none;
+  position:absolute; z-index:12; top:8px; right:24px; width:230px; height:auto; pointer-events:none;
+}
+
+/* A-02 four-stage learning route */
+section[data-layout="THEME07-007"] .aic-toc {
+  position:relative !important; overflow:hidden !important;
+  display:flex !important; flex-direction:column !important; box-sizing:border-box !important;
+  width:100% !important; height:100% !important; padding:72px 150px !important;
+  background:#fafbf9 !important; color:#0b1528 !important;
+  --aic-accent:#176bff !important; --aic-paper:#fafbf9 !important;
+}
+section[data-layout="THEME07-007"] .toc-head,
+section[data-layout="THEME07-007"] .toc-lead,
+section[data-layout="THEME07-007"] .toc-foot { display:none !important; }
+section[data-layout="THEME07-007"] .toc-grid {
+  position:relative !important; inset:auto !important; flex:1 1 auto !important;
+  display:grid !important; grid-template-columns:1fr !important;
+  grid-template-rows:repeat(4,minmax(0,1fr)) !important;
+  gap:0 !important; width:1060px !important; height:auto !important; margin:0 !important;
+}
+section[data-layout="THEME07-007"] .toc-card {
+  position:relative !important; display:grid !important; grid-template-columns:190px 1fr !important;
+  align-items:center !important; justify-content:normal !important; min-height:0 !important; padding:18px 42px !important;
+  background:transparent !important; border:0 !important; border-radius:0 !important;
+  box-shadow:none !important; transform:none !important;
+}
+section[data-layout="THEME07-007"] .toc-card:not(:last-child) { border-bottom:1px solid #d9e0e8 !important; }
+section[data-layout="THEME07-007"] .toc-card::before,
+section[data-layout="THEME07-007"] .toc-card::after { display:none !important; content:none !important; }
+section[data-layout="THEME07-007"] .toc-card-no {
+  color:#176bff !important; font-family:Inter,"Arial Black",sans-serif !important;
+  font-size:96px !important; font-weight:900 !important; line-height:1 !important; letter-spacing:-5px !important;
+}
+section[data-layout="THEME07-007"] .toc-card > div:last-child {
+  display:flex !important; flex-direction:column !important; justify-content:center !important; gap:15px !important;
+}
+section[data-layout="THEME07-007"] .toc-card-zh {
+  margin:0 !important; color:#0b1528 !important;
+  font-family:"Noto Sans SC","Microsoft YaHei",sans-serif !important;
+  font-size:60px !important; font-weight:900 !important; line-height:1.08 !important; letter-spacing:-1.2px !important;
+}
+section[data-layout="THEME07-007"] .toc-card-en {
+  margin:0 !important; color:#687386 !important;
+  font-family:"Noto Sans SC","Microsoft YaHei",sans-serif !important;
+  font-size:32px !important; font-weight:600 !important; line-height:1.2 !important; letter-spacing:.2px !important;
+  text-transform:none !important;
+}
+section[data-layout="THEME07-007"] .a02-visual {
+  position:absolute; z-index:0; top:146px; right:108px;
+  width:500px; height:760px; pointer-events:none;
+}
+section[data-layout="THEME07-007"] .a02-visual::before {
+  content:""; position:absolute; left:52px; top:62px; width:420px; height:590px;
+  border:1px solid rgba(23,107,255,.12); border-radius:50%;
+  transform:rotate(-13deg); box-shadow:inset 0 0 90px rgba(23,107,255,.035);
+}
+section[data-layout="THEME07-007"] .a02-visual::after {
+  content:""; position:absolute; z-index:0; left:34px; bottom:36px; width:430px; height:180px;
+  background:radial-gradient(ellipse at center,rgba(23,107,255,.18) 0%,rgba(23,107,255,0) 70%);
+  filter:blur(18px); opacity:.78;
+}
+section[data-layout="THEME07-007"] .a02-plane {
+  position:absolute; z-index:2; display:block; width:390px; height:116px;
+  border:1px solid rgba(23,107,255,.22); border-radius:27px;
+  transform:rotate(-9deg) skewX(-10deg);
+  box-shadow:0 24px 48px rgba(45,85,145,.10), inset 0 1px 0 rgba(255,255,255,.78);
+  backdrop-filter:blur(2px);
+}
+section[data-layout="THEME07-007"] .a02-plane.p1 {
+  right:8px; bottom:66px; background:linear-gradient(135deg,rgba(222,235,255,.78),rgba(241,247,255,.42));
+}
+section[data-layout="THEME07-007"] .a02-plane.p2 {
+  right:42px; bottom:198px; background:linear-gradient(135deg,rgba(186,215,255,.72),rgba(224,237,255,.40));
+}
+section[data-layout="THEME07-007"] .a02-plane.p3 {
+  right:76px; bottom:330px; background:linear-gradient(135deg,rgba(94,153,255,.66),rgba(181,211,255,.38));
+}
+section[data-layout="THEME07-007"] .a02-plane.p4 {
+  right:110px; bottom:462px; background:linear-gradient(135deg,#176bff 0%,#5596ff 100%);
+  border-color:rgba(23,107,255,.72); box-shadow:0 28px 58px rgba(23,107,255,.24),inset 0 1px 0 rgba(255,255,255,.42);
+}
+section[data-layout="THEME07-007"] .a02-focus {
+  position:absolute; z-index:3; right:112px; top:17px; display:block; width:86px; height:86px;
+  border-radius:50%; border:9px solid rgba(255,255,255,.86);
+  background:radial-gradient(circle at 34% 28%,#b9d4ff 0 10%,#4d91ff 31%,#176bff 66%,#0d48bf 100%);
+  box-shadow:0 20px 54px rgba(23,107,255,.32),0 0 0 1px rgba(23,107,255,.10);
 }
 </style>
 </head>
@@ -1942,7 +1999,7 @@ section[data-layout="THEME07-002"] .ptpress-brand {
 <div id="deck" class="dk-scope">
 
 <!-- Generated by scripts/render-deck.jsx -->
-<section class="slide imported-theme-slide " data-layout="THEME07-002" data-vm-slide-id="theme07_page002-1" data-vm-slide-key="theme07_page002" data-vm-layout="theme07_page002" data-vm-index="0" data-theme-pack="theme07" data-label="第 1 页"><div class="imported-theme-root" data-theme-key="theme07" data-page-key="theme07_page002" data-prop-controls="[{&quot;key&quot;:&quot;imageCount&quot;,&quot;label&quot;:&quot;图片数量&quot;,&quot;type&quot;:&quot;range&quot;,&quot;default&quot;:1,&quot;min&quot;:0,&quot;max&quot;:1,&quot;step&quot;:1,&quot;desc&quot;:&quot;右侧主视觉图片槽数量（0–1）。&quot;,&quot;publicKey&quot;:&quot;imageCount&quot;},{&quot;key&quot;:&quot;images&quot;,&quot;label&quot;:&quot;图片&quot;,&quot;type&quot;:&quot;images&quot;,&quot;default&quot;:[],&quot;countKey&quot;:&quot;imageCount&quot;,&quot;desc&quot;:&quot;右侧主视觉可替换图片。&quot;,&quot;publicKey&quot;:&quot;images&quot;},{&quot;key&quot;:&quot;showTimeline&quot;,&quot;label&quot;:&quot;年份时间轴&quot;,&quot;type&quot;:&quot;toggle&quot;,&quot;default&quot;:true,&quot;desc&quot;:&quot;正文下方 2026—2028 三年时间轴的显隐。&quot;,&quot;publicKey&quot;:&quot;showTimeline&quot;},{&quot;key&quot;:&quot;showLenses&quot;,&quot;label&quot;:&quot;透镜光斑&quot;,&quot;type&quot;:&quot;toggle&quot;,&quot;default&quot;:true,&quot;desc&quot;:&quot;右侧绿色面板上的透镜光斑装饰显隐。&quot;,&quot;publicKey&quot;:&quot;showLenses&quot;},{&quot;key&quot;:&quot;accentColor&quot;,&quot;label&quot;:&quot;主题色&quot;,&quot;type&quot;:&quot;select&quot;,&quot;display&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#8FD400&quot;,&quot;options&quot;:[{&quot;value&quot;:&quot;#8FD400&quot;,&quot;label&quot;:&quot;颜色 1&quot;},{&quot;value&quot;:&quot;#23C76A&quot;,&quot;label&quot;:&quot;颜色 2&quot;},{&quot;value&quot;:&quot;#2F7BFF&quot;,&quot;label&quot;:&quot;颜色 3&quot;},{&quot;value&quot;:&quot;#F2A93B&quot;,&quot;label&quot;:&quot;颜色 4&quot;},{&quot;value&quot;:&quot;#0D100A&quot;,&quot;label&quot;:&quot;颜色 5&quot;}],&quot;desc&quot;:&quot;品牌强调色（作用于结语短条与高亮）。&quot;,&quot;publicKey&quot;:&quot;accentColor&quot;}]" data-prop-defaults="{&quot;phaseLeft&quot;:&quot;Supply Chain Strategy&quot;,&quot;phaseRight&quot;:&quot;2026—2028&quot;,&quot;kicker&quot;:&quot;THREE-YEAR · STRATEGY&quot;,&quot;titleL1&quot;:&quot;链通全国&quot;,&quot;titleL2&quot;:&quot;高效履约&quot;,&quot;subPre&quot;:&quot;集团供应链体系三年（&quot;,&quot;years&quot;:&quot;2026-2028&quot;,&quot;subPost&quot;:&quot;）发展战略&quot;,&quot;summary&quot;:&quot;打通物流脉络，构筑产业护城河&quot;,&quot;logo&quot;:&quot;集 团 供 应 链&quot;,&quot;photoLabel&quot;:&quot;[ 物流网络 / 配送图景 ]&quot;,&quot;timeline&quot;:[&quot;2026&quot;,&quot;2027&quot;,&quot;2028&quot;],&quot;imageCount&quot;:1,&quot;images&quot;:[],&quot;showTimeline&quot;:true,&quot;showLenses&quot;:true,&quot;accentColor&quot;:&quot;#8FD400&quot;,&quot;renderSlot&quot;:null}"></div></section>
+<section class="slide imported-theme-slide " data-layout="THEME07-002" data-vm-slide-id="theme07_page002-1" data-vm-slide-key="theme07_page002" data-vm-layout="theme07_page002" data-vm-index="0" data-theme-pack="theme07" data-label="第 1 页"><div class="imported-theme-root" data-theme-key="theme07" data-page-key="theme07_page002" data-prop-controls="[{&quot;key&quot;:&quot;imageCount&quot;,&quot;label&quot;:&quot;图片数量&quot;,&quot;type&quot;:&quot;range&quot;,&quot;default&quot;:1,&quot;min&quot;:0,&quot;max&quot;:1,&quot;step&quot;:1,&quot;desc&quot;:&quot;右侧主视觉图片槽数量（0–1）。&quot;,&quot;publicKey&quot;:&quot;imageCount&quot;},{&quot;key&quot;:&quot;images&quot;,&quot;label&quot;:&quot;图片&quot;,&quot;type&quot;:&quot;images&quot;,&quot;default&quot;:[],&quot;countKey&quot;:&quot;imageCount&quot;,&quot;desc&quot;:&quot;右侧主视觉可替换图片。&quot;,&quot;publicKey&quot;:&quot;images&quot;},{&quot;key&quot;:&quot;showTimeline&quot;,&quot;label&quot;:&quot;年份时间轴&quot;,&quot;type&quot;:&quot;toggle&quot;,&quot;default&quot;:true,&quot;desc&quot;:&quot;正文下方 2026—2028 三年时间轴的显隐。&quot;,&quot;publicKey&quot;:&quot;showTimeline&quot;},{&quot;key&quot;:&quot;showLenses&quot;,&quot;label&quot;:&quot;透镜光斑&quot;,&quot;type&quot;:&quot;toggle&quot;,&quot;default&quot;:true,&quot;desc&quot;:&quot;右侧绿色面板上的透镜光斑装饰显隐。&quot;,&quot;publicKey&quot;:&quot;showLenses&quot;},{&quot;key&quot;:&quot;accentColor&quot;,&quot;label&quot;:&quot;主题色&quot;,&quot;type&quot;:&quot;select&quot;,&quot;display&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#8FD400&quot;,&quot;options&quot;:[{&quot;value&quot;:&quot;#8FD400&quot;,&quot;label&quot;:&quot;颜色 1&quot;},{&quot;value&quot;:&quot;#23C76A&quot;,&quot;label&quot;:&quot;颜色 2&quot;},{&quot;value&quot;:&quot;#2F7BFF&quot;,&quot;label&quot;:&quot;颜色 3&quot;},{&quot;value&quot;:&quot;#F2A93B&quot;,&quot;label&quot;:&quot;颜色 4&quot;},{&quot;value&quot;:&quot;#0D100A&quot;,&quot;label&quot;:&quot;颜色 5&quot;}],&quot;desc&quot;:&quot;品牌强调色（作用于结语短条与高亮）。&quot;,&quot;publicKey&quot;:&quot;accentColor&quot;}]" data-prop-defaults="{&quot;phaseLeft&quot;:&quot;Supply Chain Strategy&quot;,&quot;phaseRight&quot;:&quot;2026—2028&quot;,&quot;kicker&quot;:&quot;THREE-YEAR · STRATEGY&quot;,&quot;titleL1&quot;:&quot;链通全国&quot;,&quot;titleL2&quot;:&quot;高效履约&quot;,&quot;subPre&quot;:&quot;集团供应链体系三年（&quot;,&quot;years&quot;:&quot;2026-2028&quot;,&quot;subPost&quot;:&quot;）发展战略&quot;,&quot;summary&quot;:&quot;打通物流脉络，构筑产业护城河&quot;,&quot;logo&quot;:&quot;集 团 供 应 链&quot;,&quot;photoLabel&quot;:&quot;[ 物流网络 / 配送图景 ]&quot;,&quot;timeline&quot;:[&quot;2026&quot;,&quot;2027&quot;,&quot;2028&quot;],&quot;imageCount&quot;:1,&quot;images&quot;:[],&quot;showTimeline&quot;:true,&quot;showLenses&quot;:true,&quot;accentColor&quot;:&quot;#8FD400&quot;,&quot;renderSlot&quot;:null}"></div></section><section class="slide imported-theme-slide " data-layout="THEME07-007" data-vm-slide-id="theme07_page007-2" data-vm-slide-key="theme07_page007" data-vm-layout="theme07_page007" data-vm-index="1" data-theme-pack="theme07" data-label="第 2 页"><div class="imported-theme-root" data-theme-key="theme07" data-page-key="theme07_page007" data-prop-controls="[{&quot;key&quot;:&quot;cardCount&quot;,&quot;label&quot;:&quot;章节卡数量&quot;,&quot;type&quot;:&quot;range&quot;,&quot;default&quot;:8,&quot;min&quot;:3,&quot;max&quot;:8,&quot;step&quot;:1,&quot;desc&quot;:&quot;展示的章节卡数量（3–8）。&quot;,&quot;publicKey&quot;:&quot;cardCount&quot;},{&quot;key&quot;:&quot;columns&quot;,&quot;label&quot;:&quot;每行列数&quot;,&quot;type&quot;:&quot;select&quot;,&quot;display&quot;:&quot;tab&quot;,&quot;default&quot;:4,&quot;options&quot;:[{&quot;value&quot;:3,&quot;label&quot;:&quot;3 列&quot;},{&quot;value&quot;:4,&quot;label&quot;:&quot;4 列&quot;}],&quot;dependsOn&quot;:&quot;cardCount&quot;,&quot;dependsOnValues&quot;:[3,4,5,6],&quot;desc&quot;:&quot;章节卡的网格列数；3 列仅用于 6 张以内。&quot;,&quot;publicKey&quot;:&quot;columns&quot;},{&quot;key&quot;:&quot;focusEnabled&quot;,&quot;label&quot;:&quot;重点信息&quot;,&quot;type&quot;:&quot;toggle&quot;,&quot;default&quot;:true,&quot;desc&quot;:&quot;是否高亮某一章节卡作为阅读重点。&quot;,&quot;publicKey&quot;:&quot;focusEnabled&quot;},{&quot;key&quot;:&quot;focusIndex&quot;,&quot;label&quot;:&quot;重点元素&quot;,&quot;type&quot;:&quot;select&quot;,&quot;default&quot;:1,&quot;options&quot;:[{&quot;value&quot;:0,&quot;label&quot;:&quot;第 1 个&quot;},{&quot;value&quot;:1,&quot;label&quot;:&quot;第 2 个&quot;},{&quot;value&quot;:2,&quot;label&quot;:&quot;第 3 个&quot;},{&quot;value&quot;:3,&quot;label&quot;:&quot;第 4 个&quot;},{&quot;value&quot;:4,&quot;label&quot;:&quot;第 5 个&quot;},{&quot;value&quot;:5,&quot;label&quot;:&quot;第 6 个&quot;},{&quot;value&quot;:6,&quot;label&quot;:&quot;第 7 个&quot;},{&quot;value&quot;:7,&quot;label&quot;:&quot;第 8 个&quot;}],&quot;desc&quot;:&quot;选择被高亮的章节卡。&quot;,&quot;publicKey&quot;:&quot;focusIndex&quot;},{&quot;key&quot;:&quot;showDecorations&quot;,&quot;label&quot;:&quot;装饰文案&quot;,&quot;type&quot;:&quot;toggle&quot;,&quot;default&quot;:true,&quot;desc&quot;:&quot;序号水印与条码等装饰的显隐。&quot;,&quot;publicKey&quot;:&quot;showDecorations&quot;},{&quot;key&quot;:&quot;accentColor&quot;,&quot;label&quot;:&quot;主题色&quot;,&quot;type&quot;:&quot;select&quot;,&quot;display&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#86D62B&quot;,&quot;options&quot;:[{&quot;value&quot;:&quot;#86D62B&quot;,&quot;label&quot;:&quot;颜色 1&quot;},{&quot;value&quot;:&quot;#23C76A&quot;,&quot;label&quot;:&quot;颜色 2&quot;},{&quot;value&quot;:&quot;#2F7BFF&quot;,&quot;label&quot;:&quot;颜色 3&quot;},{&quot;value&quot;:&quot;#F2A93B&quot;,&quot;label&quot;:&quot;颜色 4&quot;},{&quot;value&quot;:&quot;#0E110B&quot;,&quot;label&quot;:&quot;颜色 5&quot;}],&quot;desc&quot;:&quot;品牌强调色。&quot;,&quot;publicKey&quot;:&quot;accentColor&quot;}]" data-prop-defaults="{&quot;eyebrow&quot;:&quot;Structure&quot;,&quot;title&quot;:&quot;报告结构&quot;,&quot;sub&quot;:&quot;从方法到结论的阅读路径&quot;,&quot;lead&quot;:&quot;整份报告按研究方法、市场全景、横向透视、产业链、典型案例、风险展望、结论和数据来源展开。&quot;,&quot;closing&quot;:&quot;先建立框架，再进入数据和判断。&quot;,&quot;chapters&quot;:[{&quot;no&quot;:&quot;01&quot;,&quot;zh&quot;:&quot;研究方法&quot;,&quot;en&quot;:&quot;Methodology&quot;},{&quot;no&quot;:&quot;02&quot;,&quot;zh&quot;:&quot;市场全景&quot;,&quot;en&quot;:&quot;Market Panorama&quot;},{&quot;no&quot;:&quot;03&quot;,&quot;zh&quot;:&quot;横向透视&quot;,&quot;en&quot;:&quot;Cross Section&quot;},{&quot;no&quot;:&quot;04&quot;,&quot;zh&quot;:&quot;产业链条&quot;,&quot;en&quot;:&quot;Value Chain&quot;},{&quot;no&quot;:&quot;05&quot;,&quot;zh&quot;:&quot;典型案例&quot;,&quot;en&quot;:&quot;Case Studies&quot;},{&quot;no&quot;:&quot;06&quot;,&quot;zh&quot;:&quot;风险展望&quot;,&quot;en&quot;:&quot;Risk &amp; Outlook&quot;},{&quot;no&quot;:&quot;07&quot;,&quot;zh&quot;:&quot;结论判断&quot;,&quot;en&quot;:&quot;Conclusion&quot;},{&quot;no&quot;:&quot;08&quot;,&quot;zh&quot;:&quot;数据来源&quot;,&quot;en&quot;:&quot;Data Sources&quot;}],&quot;cardCount&quot;:8,&quot;focusEnabled&quot;:true,&quot;focusIndex&quot;:1,&quot;columns&quot;:4,&quot;showDecorations&quot;:true,&quot;accentColor&quot;:&quot;#86D62B&quot;}"></div></section>
 
 </div>
 </div>
@@ -2010,8 +2067,8 @@ section[data-layout="THEME07-002"] .ptpress-brand {
     </div>
   </div>
 </aside>
-<script id="preview-options" type="application/json">{"themePacks":{},"current":{"themePack":"theme07"},"language":"zh","i18n":{"冷白调研风":"Cool white research style","调研报告、白皮书、竞品分析、学术/政策型表达":"Research reports, white papers, competitive analysis, academic/policy-style presentations","研究机构、咨询团队、政府/高校/智库、B2B 团队":"Research institutions, consulting teams, government/academia/think tanks, B2B teams","封面 链通全国":"Cover · Nationwide connectivity","图片数量":"Image count","右侧主视觉图片槽数量（0–1）。":"Number of main visual image slots on the right (0-1).","图片":"Image","右侧主视觉可替换图片。":"Replaceable main visual image on the right.","年份时间轴":"Year timeline","正文下方 2026—2028 三年时间轴的显隐。":"Show/hide the 2026-2028 three-year timeline below the body text.","透镜光斑":"Lens bokeh","右侧绿色面板上的透镜光斑装饰显隐。":"Show/hide the lens bokeh decoration on the green panel on the right.","主题色":"Theme color","品牌强调色（作用于结语短条与高亮）。":"Brand accent color (applies to the closing bar and highlights).","颜色 1":"Color 1","颜色 2":"Color 2","颜色 3":"Color 3","颜色 4":"Color 4","颜色 5":"Color 5"}}</script>
-<script id="deck-view-model" type="application/json">{"version":1,"title":"Agent 赋能基础办公","themePack":"theme07","slides":[{"id":"theme07_page002-1","key":"theme07_page002","layout":"theme07_page002","dataLayout":"THEME07-002","themePack":"theme07","label":"第 1 页","props":{"phaseLeft":"公司业务骨干 AI 实训","phaseRight":"第一期 · 课程 1","kicker":"","titleL1":"Agent","titleL2":"赋能基础办公","subPre":"","years":"","subPost":"","summary":"","logo":"","photoLabel":"","timeline":["理解 Agent","认识智能体工具","掌握人机协作方法"],"images":["assets/user-media/a-01-agent-v6.png"],"imageCount":1,"accentColor":"#176BFF"},"media":{}}],"state":{"slideOrder":["theme07_page002-1"],"text":{},"media":{},"props":{}}}</script>
+<script id="preview-options" type="application/json">{"themePacks":{},"current":{"themePack":"theme07"},"language":"zh","i18n":{"冷白调研风":"Cool white research style","调研报告、白皮书、竞品分析、学术/政策型表达":"Research reports, white papers, competitive analysis, academic/policy-style presentations","研究机构、咨询团队、政府/高校/智库、B2B 团队":"Research institutions, consulting teams, government/academia/think tanks, B2B teams","封面 链通全国":"Cover · Nationwide connectivity","图片数量":"Image count","右侧主视觉图片槽数量（0–1）。":"Number of main visual image slots on the right (0-1).","图片":"Image","右侧主视觉可替换图片。":"Replaceable main visual image on the right.","年份时间轴":"Year timeline","正文下方 2026—2028 三年时间轴的显隐。":"Show/hide the 2026-2028 three-year timeline below the body text.","透镜光斑":"Lens bokeh","右侧绿色面板上的透镜光斑装饰显隐。":"Show/hide the lens bokeh decoration on the green panel on the right.","主题色":"Theme color","品牌强调色（作用于结语短条与高亮）。":"Brand accent color (applies to the closing bar and highlights).","颜色 1":"Color 1","颜色 2":"Color 2","颜色 3":"Color 3","颜色 4":"Color 4","颜色 5":"Color 5","目录 Contents":"Contents","章节卡数量":"Chapter card count","展示的章节卡数量（3–8）。":"Number of chapter cards shown (3-8).","每行列数":"Columns per row","章节卡的网格列数；3 列仅用于 6 张以内。":"Number of grid columns for the chapter cards; 3 columns applies only up to 6 cards.","3 列":"3 columns","4 列":"4 columns","重点信息":"Key info","是否高亮某一章节卡作为阅读重点。":"Whether to highlight a chapter card as the reading focus.","重点元素":"Key element","选择被高亮的章节卡。":"Select the highlighted chapter card.","第 1 个":"Item 1","第 2 个":"Item 2","第 3 个":"Item 3","第 4 个":"Item 4","第 5 个":"Item 5","第 6 个":"Item 6","第 7 个":"Item 7","第 8 个":"Item 8","装饰文案":"Decorative text","序号水印与条码等装饰的显隐。":"Show/hide decorations such as the index watermark and barcode.","品牌强调色。":"Brand accent color."}}</script>
+<script id="deck-view-model" type="application/json">{"version":1,"title":"AI Agent 赋能基础办公","themePack":"theme07","slides":[{"id":"theme07_page002-1","key":"theme07_page002","layout":"theme07_page002","dataLayout":"THEME07-002","themePack":"theme07","label":"第 1 页","props":{"phaseLeft":"公司业务骨干 AI 实训","phaseRight":"第一期 · 课程 1","kicker":"","titleL1":"AI Agent","titleL2":"赋能基础办公","subPre":"","years":"","subPost":"","summary":"","logo":"","photoLabel":"","timeline":["理解 Agent","认识智能体工具","掌握人机协作方法"],"showTimeline":false,"images":["assets/user-media/a-01-agent-v6.png"],"imageCount":1,"accentColor":"#176BFF"},"media":{}},{"id":"theme07_page007-2","key":"theme07_page007","layout":"theme07_page007","dataLayout":"THEME07-007","themePack":"theme07","label":"第 2 页","props":{"eyebrow":"","title":"","sub":"","lead":"","closing":"","chapters":[{"no":"01","zh":"理解 Agent","en":"从对话到执行任务"},{"no":"02","zh":"上手智能体工具","en":"安装配置与基本使用"},{"no":"03","zh":"掌握人机协作","en":"定义 · 执行 · 验收"},{"no":"04","zh":"办公场景实战","en":"周报　总结　营销　知识库"}],"cardCount":4,"columns":3,"focusEnabled":false,"focusIndex":0,"showDecorations":false,"accentColor":"#176BFF"},"media":{}}],"state":{"slideOrder":["theme07_page002-1","theme07_page007-2"],"text":{"text:deck:p0-1-1":"\u003cspan class=\"l1\">AI Agent\u003c/span>\u003cspan class=\"l2\">赋能基础办公\u003c/span>"},"media":{},"props":{},"skippedSlides":[],"deletedSlides":[],"duplicatedSlides":[],"__deckSignature":"-1660075588"}}</script>
 <script id="embedded-text-state" type="application/json">{}</script>
 <script>
 /* =============== Deck UI Language (i18n) =============== */
@@ -8819,7 +8876,7 @@ refreshRailCatalog();
   btn.addEventListener('click',()=>apply(current()==='dark'?'light':'dark'));
 })();
 </script>
-<script id="a01-brand-mark">
+<script id="course-brand-mark">
 document.addEventListener('DOMContentLoaded', function () {
   var slide = document.querySelector('section[data-layout="THEME07-002"]');
   if (!slide || slide.querySelector('.ptpress-brand')) return;
@@ -8829,6 +8886,29 @@ document.addEventListener('DOMContentLoaded', function () {
   logo.alt = '人民邮电出版社';
   slide.appendChild(logo);
 });
+</script>
+<script id="a02-route-visual">
+(function () {
+  function mountA02Visual() {
+    var hosts = document.querySelectorAll('section[data-layout="THEME07-007"] .aic-toc');
+    hosts.forEach(function (host) {
+      if (host.querySelector('.a02-visual')) return;
+      var visual = document.createElement('div');
+      visual.className = 'a02-visual';
+      visual.setAttribute('aria-hidden', 'true');
+      visual.innerHTML = '<span class="a02-plane p1"></span><span class="a02-plane p2"></span><span class="a02-plane p3"></span><span class="a02-plane p4"></span><span class="a02-focus"></span>';
+      host.appendChild(visual);
+    });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', mountA02Visual, { once: true });
+  } else {
+    mountA02Visual();
+  }
+  var observer = new MutationObserver(mountA02Visual);
+  observer.observe(document.documentElement, { childList: true, subtree: true });
+  setTimeout(function () { observer.disconnect(); }, 5000);
+})();
 </script>
 </body>
 </html>
