@@ -4,7 +4,7 @@
   "audience": "公司跨部门业务骨干",
   "owner": "张金京",
   "randomSeed": "agent-office-workbench-20260721-a03",
-  "pageCount": 4,
+  "pageCount": 6,
   "themePack": "theme07",
   "slides": [
     {
@@ -142,6 +142,30 @@
           "现在｜你交代要完成什么，它能参与推进任务"
         ],
         "conclusion": "当 AI 不只是回答问题，而是能围绕目标和要求推进任务时，我们开始把它称为 Agent（智能体）。",
+        "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page067",
+      "props": {
+        "title": "AI 工具 / 助手发展简史",
+        "lead": "聊天、工具辅助、资料连接与任务协作，共同推动了 AI 工作方式的变化。",
+        "stages": [
+          "2022｜AI 对话走进大众视野｜ChatGPT 发布",
+          "2023—2024｜AI 助手进入常用工具｜Copilot · RAG · Tool Calling",
+          "2025｜AI 开始连接资料与工具｜MCP · Skill · Computer Use · Browser Use",
+          "2026 至今｜Agent 开始参与任务推进"
+        ],
+        "conclusion": "工具、资料和反馈逐渐被放进同一次任务，Agent 的工作方式因此成为可能。",
+        "next": "接下来，我们具体看：大模型和 Agent，分别在做什么？",
+        "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page068",
+      "props": {
+        "title": "大模型和 Agent，分别在做什么？",
+        "lead": "大模型提供理解与生成能力；Agent 围绕目标，把材料、工具和检查组织进一次任务。",
         "accentColor": "#176BFF"
       }
     }
