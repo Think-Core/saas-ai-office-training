@@ -4,7 +4,7 @@
   "audience": "公司跨部门业务骨干",
   "owner": "张金京",
   "randomSeed": "agent-office-workbench-20260721-a03",
-  "pageCount": 6,
+  "pageCount": 7,
   "themePack": "theme07",
   "slides": [
     {
@@ -166,6 +166,15 @@
       "props": {
         "title": "大模型和 Agent，分别在做什么？",
         "lead": "大模型提供理解与生成能力；Agent 围绕目标，把材料、工具和检查组织进一次任务。",
+        "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page069",
+      "props": {
+        "title": "工欲善其事，必先利其器。",
+        "lead": "MCP：让 AI 连接数据与工具的通用接口。",
+        "conclusion": "接入前先核对来源、权限范围和数据去向。",
         "accentColor": "#176BFF"
       }
     }
