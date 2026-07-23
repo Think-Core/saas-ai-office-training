@@ -4,7 +4,7 @@
   "audience": "公司跨部门业务骨干",
   "owner": "张金京",
   "randomSeed": "agent-office-workbench-20260721-a03",
-  "pageCount": 8,
+  "pageCount": 9,
   "themePack": "theme07",
   "slides": [
     {
@@ -175,6 +175,23 @@
         "title": "工欲善其事，必先利其器。",
         "lead": "MCP：让 AI 连接数据与工具的通用接口。",
         "conclusion": "接入前先核对来源、权限范围和数据去向。",
+        "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page071",
+      "props": {
+        "title": "知己知彼：看懂大模型的长处与短板",
+        "lead": "选模型，先看要处理什么材料、要完成什么任务。",
+        "models": [
+          "阿里千问｜Qwen3.8-Max-Preview",
+          "深度求索｜DeepSeek-V4-Pro",
+          "智谱华章｜GLM-5.2",
+          "月之暗面｜Kimi K3",
+          "稀宇科技｜MiniMax-M3",
+          "字节跳动｜Doubao-Seed-2.0 Pro"
+        ],
+        "tags": ["处理长资料", "看图读表", "分析判断", "调用工具", "多步完成"],
         "accentColor": "#176BFF"
       }
     }
