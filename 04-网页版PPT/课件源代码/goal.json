@@ -4,7 +4,7 @@
   "audience": "公司跨部门业务骨干",
   "owner": "张金京",
   "randomSeed": "agent-office-workbench-20260721-a03",
-  "pageCount": 10,
+  "pageCount": 12,
   "themePack": "theme07",
   "slides": [
     {
@@ -69,6 +69,29 @@
         "focusEnabled": false,
         "focusIndex": 0,
         "showDecorations": false,
+        "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page016",
+      "props": {
+        "eyebrow": "",
+        "index": "01",
+        "title": "理解 Agent",
+        "sub": "从对话到执行任务",
+        "lead": "",
+        "closing": "",
+        "keywords": [
+          "为什么需要",
+          "怎样工作",
+          "如何连接",
+          "如何选择"
+        ],
+        "backgroundVariant": "paper",
+        "layout": "left",
+        "showIndex": true,
+        "showKeywords": false,
+        "showDecorations": true,
         "accentColor": "#176BFF"
       }
     },
@@ -225,6 +248,31 @@
         ],
         "conclusion": "企业日常使用的办公平台，决定了 Agent 要接入哪些账号、文档和协作流程。",
         "note": "同一生态通常更容易衔接现有账号、文档和协作流程。实际使用仍要核对企业版、连接器和管理员权限。",
+        "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page059",
+      "props": {
+        "eyebrow": "",
+        "index": "02",
+        "title": "上手智能体工具",
+        "sub": "安装配置与基本使用",
+        "lead": "",
+        "closing": "",
+        "keywords": [
+          "安装",
+          "配置",
+          "权限",
+          "界面",
+          "技能"
+        ],
+        "keywordCount": 5,
+        "backgroundVariant": "paper",
+        "layout": "left",
+        "showIndex": true,
+        "showKeywords": false,
+        "showDecorations": true,
         "accentColor": "#176BFF"
       }
     }
