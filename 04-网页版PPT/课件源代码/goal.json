@@ -179,6 +179,16 @@
       }
     },
     {
+      "layout": "theme07_page070",
+      "props": {
+        "title": "授人以渔：让 AI 学会一类工作的方法",
+        "lead": "Skills：把流程、规则和参考资料沉淀成可复用的技能包",
+        "workflowTitle": "典型Agent工作流",
+        "workflowOutcome": "Skills 把完成特定任务所需的领域知识、操作流程、要用的工具及最佳实践都封装在一起。",
+        "accentColor": "#176BFF"
+      }
+    },
+    {
       "layout": "theme07_page071",
       "props": {
         "title": "知己知彼：看懂大模型的长处与短板",
