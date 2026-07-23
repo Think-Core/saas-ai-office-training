@@ -4,7 +4,7 @@
   "audience": "公司跨部门业务骨干",
   "owner": "张金京",
   "randomSeed": "agent-office-workbench-20260721-a03",
-  "pageCount": 9,
+  "pageCount": 10,
   "themePack": "theme07",
   "slides": [
     {
@@ -202,6 +202,29 @@
           "字节跳动｜Doubao-Seed-2.0 Pro"
         ],
         "tags": ["处理长资料", "看图读表", "分析判断", "调用工具", "多步完成"],
+        "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page072",
+      "props": {
+        "title": "因地制宜：让 Agent 融入企业办公生态",
+        "lead": "企业日常使用的办公平台，会直接影响 Agent 的接入方式、协作体验和管理成本。",
+        "generalTitle": "前沿通用智能体",
+        "generalCopy": "",
+        "ecosystemTitle": "从企业办公入口出发",
+        "ecosystemCopy": "",
+        "generalAgents": [
+          "ChatGPT｜通用桌面 Agent",
+          "Claude Desktop｜通用桌面 Agent"
+        ],
+        "ecosystems": [
+          "钉钉｜QoderWork",
+          "微信 / 企业微信｜WorkBuddy",
+          "飞书｜扣子 Coze"
+        ],
+        "conclusion": "企业日常使用的办公平台，决定了 Agent 要接入哪些账号、文档和协作流程。",
+        "note": "同一生态通常更容易衔接现有账号、文档和协作流程。实际使用仍要核对企业版、连接器和管理员权限。",
         "accentColor": "#176BFF"
       }
     }
