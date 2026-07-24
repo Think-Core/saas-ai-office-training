@@ -3,7 +3,7 @@
   "goal": "以 AI Agent 为主线，先呈现日常办公中被打散的任务痛点，再进入课程路线与后续办公实战内容",
   "audience": "公司跨部门业务骨干",
   "owner": "张金京",
-  "randomSeed": "agent-office-workbench-20260721-a03",
+  "randomSeed": "agent-office-workbench-20260721-a04",
   "pageCount": 12,
   "themePack": "theme07",
   "slides": [
@@ -28,7 +28,7 @@
         ],
         "showTimeline": false,
         "images": [
-          "assets/user-media/a-01-agent-v6.png"
+          "assets/user-media/a-01-agent-v7.png"
         ],
         "imageCount": 1,
         "accentColor": "#176BFF"
@@ -244,7 +244,7 @@
         "ecosystems": [
           "钉钉｜QoderWork",
           "微信 / 企业微信｜WorkBuddy",
-          "飞书｜扣子 Coze"
+          "飞书｜TRAEWork"
         ],
         "conclusion": "企业日常使用的办公平台，决定了 Agent 要接入哪些账号、文档和协作流程。",
         "note": "同一生态通常更容易衔接现有账号、文档和协作流程。实际使用仍要核对企业版、连接器和管理员权限。",

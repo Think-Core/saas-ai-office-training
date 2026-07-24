@@ -1,13 +1,13 @@
-# A-10｜Agent 工具与企业办公生态资料
+# A-11｜Agent 工具与企业办公生态资料
 
-核验日期：2026-07-23
+核验日期：2026-07-24
 
 ## 页面目的
 
 本页不比较五款 Agent 的综合强弱，而是帮助业务员工建立一条企业选择思路：
 
 - ChatGPT、Claude Desktop 作为页面“前沿通用智能体”的两个示例。
-- 国内工具先从企业已经使用的办公入口理解：钉钉—QoderWork、微信 / 企业微信—WorkBuddy、飞书—扣子 Coze。
+- 国内工具先从企业已经使用的办公入口理解：钉钉—QoderWork、微信 / 企业微信—WorkBuddy、飞书—TRAEWork。
 - “同一生态”只表示优先了解和较低的衔接成本，不表示账号、文档、消息与权限已经自动打通。
 
 ## 产品关系与表述边界
@@ -35,18 +35,20 @@
 - 腾讯云 WorkBuddy 企业版：https://cloud.tencent.com/product/workbuddy-enterprise
 - 企业版官方资料明确使用“原生集成腾讯生态”等表述。页面仍不承诺具体企业账号已自动接通，实际能力取决于企业版、连接器和管理员配置。
 
-### 飞书与扣子 Coze
+### 飞书与 TRAEWork
 
-- Coze 产品页：https://www.coze.cn/overview
-- 飞书开放平台发布 Coze 智能体示例：https://open.feishu.cn/community/articles/7337153286195789826
-- 页面表达“飞书—扣子 Coze”的同生态关系，不扩大为所有飞书数据和权限均已自动开放。
+- TRAE Work 官网：https://work.trae.ai/
+- TRAE Work 官方产品页：https://www.trae.ai/work?showJoin=1
+- 用户确认 TRAEWork 属于字节系，因此页面继续保留“飞书”办公入口，并将原 Coze 替换为 TRAEWork。
+- 页面只表达同一产品生态下的优先了解关系，不扩大为 TRAEWork 已经自动读取飞书账号、文档、消息或权限。
 
 ## 品牌素材
 
 - ChatGPT：复用课件现有 `brand-chatgpt.svg`。
-- Claude、Coze：使用 LobeHub Icons 的品牌矢量标志并本地化。
+- Claude：使用 LobeHub Icons 的品牌矢量标志并本地化。
+- TRAEWork：使用官网 PWA 清单提供的官方 512px PNG 图标并本地化；课件可见名称按用户要求写作 `TRAEWork`，官方页面常用 `TRAE Work`。
 - QoderWork：复用素材库中从产品页面归档的高清 SVG。
-- WorkBuddy：复用 A-08 已核验的产品 SVG。
+- WorkBuddy：复用 A-09 已核验的产品 SVG。
 - 微信：使用 Simple Icons 的 WeChat 矢量标志并本地化。
 - 飞书：使用 Dashboard Icons 的 Lark / 飞书矢量标志并本地化。
 - 钉钉：使用 Iconify `arcticons:dingtalk` 的矢量轮廓并按科技蓝呈现；名称文字同时保留，发布前如获得官方品牌包可直接替换 SVG，不改变版式。
