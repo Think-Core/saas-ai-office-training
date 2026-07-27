@@ -4,7 +4,7 @@
   "audience": "公司跨部门业务骨干",
   "owner": "张金京",
   "randomSeed": "agent-office-workbench-20260721-a04",
-  "pageCount": 21,
+  "pageCount": 29,
   "themePack": "theme07",
   "slides": [
     {
@@ -385,6 +385,98 @@
         "order": ["权限", "路径", "网络 / Credits", "指令与验收"],
         "officialDocs": "https://www.codebuddy.cn/docs/workbuddy/Overview",
         "officialDocsSummary": "入门指南、安装与功能说明、实践案例、Skills、助理接入和账号说明",
+        "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page082",
+      "props": {
+        "eyebrow": "",
+        "index": "03",
+        "title": "掌握人机协作",
+        "sub": "定义 · 执行 · 验收",
+        "lead": "",
+        "closing": "",
+        "keywords": ["定义成果", "准备上下文", "观察执行", "验收结果"],
+        "keywordCount": 4,
+        "backgroundVariant": "paper",
+        "layout": "left",
+        "showIndex": true,
+        "showKeywords": false,
+        "showDecorations": true,
+        "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page083",
+      "props": {
+        "title": "有了好工具，还要有好方法",
+        "lead": "选择适合 Agent 的工作方式，比要求 Agent 适应所有工具更重要。",
+        "roles": ["人：定目标、做判断、验收结果", "Agent：理解、规划、调度、整合", "专业工具：计算、绘制、转换、生成"],
+        "principles": ["扬长避短", "分层协作", "结果验收"],
+        "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page084",
+      "props": {
+        "title": "处理文档：先转换成 Agent 擅长的文本，再处理格式",
+        "lead": "大模型更擅长理解和生成文本；Markdown 用轻量标记保留结构，减少复杂格式干扰。",
+        "flow": ["读取 DOCX", "提取为 Markdown 工作稿", "修改、比较、确认内容", "写回 DOCX", "检查排版"],
+        "example": "修改一份制度或报告：先确认内容，再处理版式。",
+        "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page085",
+      "props": {
+        "title": "处理数据：别让模型心算，让它调度工具算",
+        "lead": "Agent 负责想清楚，脚本和工具负责算清楚。",
+        "agentTasks": ["理解问题", "拆解任务", "判断下一步"],
+        "tools": ["Python / SQL", "CSV / JSON", "表格与图表"],
+        "checks": ["指标口径", "异常数据", "计算逻辑", "结论是否成立"],
+        "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page086",
+      "props": {
+        "title": "演示汇报：核心是把信息讲清楚",
+        "lead": "根据受众和信息特点，选择最合适的呈现方式。",
+        "outputs": ["PPT", "网页报告", "数据看板", "动态推演"],
+        "note": "不是先打开软件找模版，而是先判断信息怎样呈现最清楚。",
+        "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page087",
+      "props": {
+        "title": "设计工作：先把想法做成原型，再进行沟通讨论",
+        "lead": "Agent 可以把自然语言描述快速变成想法原型，让方案在投入正式制作前先被看见、讨论和验证。",
+        "prototypes": ["需求与约束", "想法原型", "业务判断"],
+        "flow": ["说明业务目标", "形成可讨论方案", "人判断方向", "专业团队完善"],
+        "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page088",
+      "props": {
+        "title": "长期任务：对话是工作现场，文件是组织记忆",
+        "lead": "把复杂任务拆开，把关键过程记录下来，把任务产物汇总起来。",
+        "tasks": ["资料研究", "内容撰写", "视觉设计", "数据核验"],
+        "sharedFiles": ["项目说明.md", "当前进展.md", "决策记录.md", "任务交接.md"],
+        "versioning": "版本管理",
+        "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page089",
+      "props": {
+        "title": "人定方向，Agent 推进，工具执行",
+        "lead": "各自做擅长的事，在反馈中把任务推进到可验收的结果。",
+        "comparison": ["人：定目标、划边界、做判断、验收", "Agent：理解、规划、调度、整合", "专业工具：检索、计算、绘制、生成"],
+        "loop": ["验收结果", "反馈修正", "进入下一轮"],
+        "closing": "真正高效的人机协作，是让每一部分都由最适合它的人或工具完成。",
         "accentColor": "#176BFF"
       }
     }
