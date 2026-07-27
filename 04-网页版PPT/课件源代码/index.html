@@ -2857,6 +2857,44 @@ section[data-layout="THEME07-078"] .wb-head p{font-size:24px}.a18-grid{position:
 })();
 </script>
 <script src="assets/a23-a29-methodology.js"></script>
+<script id="a30-static-slide-before-runtime">
+(function(){
+  var modelEl=document.getElementById('deck-view-model');
+  var deck=document.getElementById('deck');
+  if(!modelEl||!deck)return;
+  var id='theme07_page090-30';
+  try{
+    var model=JSON.parse(modelEl.textContent);
+    model.slides=model.slides||[];
+    if(!model.slides.some(function(slide){return slide&&slide.id===id;})){
+      model.slides.push({
+        id:id,key:'theme07_page090',layout:'theme07_page090',dataLayout:'THEME07-090',themePack:'theme07',label:'04 办公场景实战',
+        props:{eyebrow:'',index:'04',title:'办公场景实战',sub:'案例演示与方法迁移',lead:'',closing:'',keywords:['周报','阶段总结','营销策划与素材','知识库'],keywordCount:4,backgroundVariant:'paper',layout:'left',showIndex:true,showKeywords:false,showDecorations:true,accentColor:'#176BFF'},media:{}
+      });
+    }
+    modelEl.textContent=JSON.stringify(model);
+  }catch(e){console.warn('A-30 model bootstrap skipped',e);}
+  if(!deck.querySelector('section[data-vm-slide-id="'+id+'"]')){
+    deck.insertAdjacentHTML('beforeend',`<section class="slide imported-theme-slide chapter-cover" data-layout="THEME07-090" data-vm-slide-id="theme07_page090-30" data-vm-slide-key="theme07_page090" data-vm-layout="theme07_page090" data-vm-index="29" data-theme-pack="theme07" data-label="04 办公场景实战">
+      <div class="chapter-static-root">
+        <div class="aic-ch is-left" data-bg="paper" style="--aic-accent:#176BFF;--aic-accent-bright:#56A0FF;--aic-accent-deep:#0C4FD6;--aic-accent-soft:#E8F2FF;--aic-ink:#0B162B;--aic-ink-dim:#394A64;--aic-paper:#FAFCFF;--aic-card:#FFFFFF;--aic-muted:#697A92;--aic-faint:#A8B5C6;--aic-hair:rgba(23,107,255,.10);--aic-hair-strong:rgba(23,107,255,.18);--aic-pos:#2F7BFF;--aic-neg:#E8443B;--aic-warn:#EFA63A;--aic-font-display:'Space Grotesk','Noto Sans SC',system-ui,sans-serif;--aic-font-text:'Noto Sans SC','Space Grotesk',system-ui,sans-serif">
+          <div class="ch-glow"></div>
+          <div class="ch-lens" aria-hidden="true"><div class="aic-viz aic-viz-lens"><i></i><i></i><i></i><i></i></div></div>
+          <div class="ch-index" data-editable-path="a30-index">04</div>
+          <div class="ch-body">
+            <h2 class="ch-title" data-editable-path="a30-title">办公场景实战</h2>
+            <div class="ch-sub" data-editable-path="a30-sub">案例演示与方法迁移</div>
+          </div>
+        </div>
+      </div>
+    </section>`);
+  }
+  var slide=deck.querySelector('section[data-vm-slide-id="'+id+'"]');
+  setTimeout(function(){window.__initEditableText?.(slide);},0);
+  setTimeout(function(){window.__initEditableText?.(slide);},700);
+  setTimeout(function(){window.__initEditableText?.(slide);},1800);
+})();
+</script>
 <script id="slide-order-normalizer">
 (function(){
   var el=document.getElementById('deck-view-model');
@@ -2892,7 +2930,8 @@ section[data-layout="THEME07-078"] .wb-head p{font-size:24px}.a18-grid{position:
       'theme07_page086-26',
       'theme07_page087-27',
       'theme07_page088-28',
-      'theme07_page089-29'
+      'theme07_page089-29',
+      'theme07_page090-30'
     ];
     var byId={};
     model.slides.forEach(function(slide){if(slide&&slide.id)byId[slide.id]=slide;});
