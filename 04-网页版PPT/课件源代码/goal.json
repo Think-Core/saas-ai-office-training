@@ -4,7 +4,7 @@
   "audience": "公司跨部门业务骨干",
   "owner": "张金京",
   "randomSeed": "agent-office-workbench-20260721-a04",
-  "pageCount": 29,
+  "pageCount": 30,
   "themePack": "theme07",
   "slides": [
     {
@@ -477,6 +477,25 @@
         "comparison": ["人：定目标、划边界、做判断、验收", "Agent：理解、规划、调度、整合", "专业工具：检索、计算、绘制、生成"],
         "loop": ["验收结果", "反馈修正", "进入下一轮"],
         "closing": "真正高效的人机协作，是让每一部分都由最适合它的人或工具完成。",
+        "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page090",
+      "props": {
+        "eyebrow": "",
+        "index": "04",
+        "title": "办公场景实战",
+        "sub": "案例演示与方法迁移",
+        "lead": "",
+        "closing": "",
+        "keywords": ["周报", "阶段总结", "营销策划与素材", "知识库"],
+        "keywordCount": 4,
+        "backgroundVariant": "paper",
+        "layout": "left",
+        "showIndex": true,
+        "showKeywords": false,
+        "showDecorations": true,
         "accentColor": "#176BFF"
       }
     }
