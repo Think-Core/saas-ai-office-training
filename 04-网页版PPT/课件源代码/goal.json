@@ -4,7 +4,7 @@
   "audience": "公司跨部门业务骨干",
   "owner": "张金京",
   "randomSeed": "agent-office-workbench-20260721-a04",
-  "pageCount": 12,
+  "pageCount": 21,
   "themePack": "theme07",
   "slides": [
     {
@@ -273,6 +273,118 @@
         "showIndex": true,
         "showKeywords": false,
         "showDecorations": true,
+        "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page073",
+      "props": {
+        "title": "今天，我们用 WorkBuddy 上手 Agent",
+        "lead": "免部署·安装即用｜多专家·多模型协同｜全平台·桌面 / 主流 IM / 小程序",
+        "positioning": "AI 原生桌面智能体工作台",
+        "subtitle": "核心优势",
+        "advantages": [
+          {"title": "一句话下达任务", "description": "用自然语言描述需求，无需复杂操作"},
+          {"title": "自主规划执行", "description": "自动拆解任务、规划步骤、完成交付"},
+          {"title": "多任务并行", "description": "同时发起和管理多个任务，适合并行处理"},
+          {"title": "本地文件操作", "description": "读取授权的电脑文件夹，进行批量处理"},
+          {"title": "结果可验收", "description": "生成的文档、表格、PPT 等可直接使用"}
+        ],
+        "scenarios": [
+          {"title": "日常办公", "items": ["文档生成", "数据分析"]},
+          {"title": "脚本开发", "items": ["日常编码辅助", "项目理解", "网站/应用开发"]},
+          {"title": "设计创意", "items": ["产品设计", "PPT 设计", "交互原型"]}
+        ],
+        "image": "assets/a13-workbuddy-intro-hd-v3.png",
+        "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page074",
+      "props": {
+        "title": "从下载到登录，3分钟用上WorkBuddy",
+        "lead": "先确认入口与系统版本，再完成安装和首次登录。",
+        "steps": ["访问官网", "选择系统版本", "完成安装", "首次登录"],
+        "guides": [
+          {"label": "Windows 安装指南", "url": "https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Installation-Win-Guide"},
+          {"label": "macOS 安装指南", "url": "https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Installation-Mac-Guide"}
+        ],
+        "note": "根据腾讯官方的说法，“3分钟上手”——这一说法亲自验证过，确实毫不夸张！整个流程与在计算机上安装微信或WPS没有任何区别。",
+        "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page075",
+      "props": {
+        "title": "第一次使用，先设置工作空间",
+        "lead": "在新建任务中选择工作空间，明确 WorkBuddy 可以访问的文件夹。",
+        "rules": ["工作空间是什么", "第一次使用时", "为什么要授权"],
+        "image": "assets/a15-workspace-source.png",
+        "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page076",
+      "props": {
+        "title": "上手WorkBuddy：开始你的第一个任务",
+        "lead": "从“新建任务”到查看结果，先认识这六个常用位置。",
+        "areas": ["新建任务", "工作空间", "任务输入区", "执行状态", "结果文件", "设置与扩展"],
+        "image": "assets/a16-workbench-source.png",
+        "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page077",
+      "props": {
+        "title": "第一个任务：生成一份“本周计划”Excel",
+        "lead": "先把任务说清楚，再看执行过程，最后打开文件逐项检查。",
+        "flow": ["输入任务", "查看执行", "找到文件", "打开验收"],
+        "checks": ["当前工作空间", "本周计划.xlsx", "日期、待办事项、完成情况", "能打开，也能继续编辑"],
+        "image": "assets/a17-week-plan-result.png",
+        "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page078",
+      "props": {
+        "title": "Ask / Craft / Plan：先选对工作方式",
+        "lead": "先判断任务需要答案、直接交付，还是先确认方案。",
+        "modes": ["Ask｜只问", "Craft｜直接做", "Plan｜先规划"],
+        "decision": "只需要答案？需要直接交付？是否复杂到要先确认计划？",
+        "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page079",
+      "props": {
+        "title": "多专家协作：一句话调动一支团队",
+        "lead": "WorkBuddy 可以根据任务需要匹配不同领域的专家，协同推进工作。",
+        "points": ["100+ 领域专家", "多专家并行协作", "能力按需扩展"],
+        "flow": ["一句指令", "规划分工", "并行协作", "汇总交付"],
+        "video": "assets/user-media/expert-team-intro-bmxwqbuo.mp4",
+        "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page080",
+      "props": {
+        "title": "不在电脑前，也能把任务交给它",
+        "lead": "配置远程助理后，可以在授权范围内从手机发起任务。",
+        "steps": ["打开助理设置", "选择微信集成", "完成配置", "扫码绑定"],
+        "note": "本页以微信助理为例；其他平台是否可用，以当前版本、账号类型和企业权限为准。",
+        "images": ["assets/a20-assistant-nav-source.png", "assets/a20-assistant-qr-source.png"],
+        "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page081",
+      "props": {
+        "title": "第一次上手常见问题",
+        "lead": "先按固定顺序排查；需要系统学习时，直接查看 WorkBuddy 官方文档。",
+        "problems": ["无法访问路径", "输出格式不对", "响应慢或无反应", "macOS 无法验证开发者"],
+        "order": ["权限", "路径", "网络 / Credits", "指令与验收"],
+        "officialDocs": "https://www.codebuddy.cn/docs/workbuddy/Overview",
+        "officialDocsSummary": "入门指南、安装与功能说明、实践案例、Skills、助理接入和账号说明",
         "accentColor": "#176BFF"
       }
     }
