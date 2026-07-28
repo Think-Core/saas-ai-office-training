@@ -2,6 +2,8 @@
   var modelEl=document.getElementById('deck-view-model');
   var deck=document.getElementById('deck');
   if(!modelEl||!deck)return;
+  var isExportSnapshot=document.documentElement.dataset.exportSnapshot==='true';
+  if(!isExportSnapshot){
   var defs=[
     {id:'theme07_page083-24',key:'theme07_page083',dataLayout:'THEME07-083',label:'有了好工具，还要有好方法',props:{title:'有了好工具，还要有好方法',lead:'选择适合 Agent 的工作方式，比要求 Agent 适应所有工具更重要。',principles:['扬长避短','分层协作','结果验收']}},
     {id:'theme07_page084-25',key:'theme07_page084',dataLayout:'THEME07-084',label:'处理文档：先转换成 Agent 擅长的文本，再处理格式',props:{title:'处理文档：先转换成 Agent 擅长的文本，再处理格式',lead:'大模型更擅长理解和生成文本；Markdown 用轻量标记保留结构，减少复杂格式干扰。',flow:['读取 DOCX','提取为 Markdown','修改与确认','写回 DOCX','检查排版']}},
@@ -155,6 +157,7 @@
   setTimeout(function(){mounted.forEach(function(slide){window.__initEditableText?.(slide);});},0);
   setTimeout(function(){mounted.forEach(function(slide){window.__initEditableText?.(slide);});},900);
   setTimeout(function(){mounted.forEach(function(slide){window.__initEditableText?.(slide);});},1800);
+  }
   function setupA24Motion(){
     var slide=deck.querySelector('section[data-layout="THEME07-084"]');
     var stage=slide&&slide.querySelector('[data-a25-motion]');
