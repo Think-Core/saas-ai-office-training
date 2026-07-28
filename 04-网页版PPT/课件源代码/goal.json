@@ -4,7 +4,7 @@
   "audience": "公司跨部门业务骨干",
   "owner": "张金京",
   "randomSeed": "agent-office-workbench-20260721-a04",
-  "pageCount": 30,
+  "pageCount": 33,
   "themePack": "theme07",
   "slides": [
     {
@@ -212,6 +212,33 @@
       }
     },
     {
+      "layout": "theme07_page091",
+      "props": {
+        "title": "分身有术：让主 Agent 学会分工",
+        "lead": "Subagent（子 Agent）：由主 Agent 根据任务自动创建或调用子Agent，并在独立的上下文中完成边界清楚的任务后返回结果给主Agent。",
+        "goal": "准备一份月度经营分析",
+        "goalNote": "主Agent 先判断：哪些工作可以独立并行完成；",
+        "managerTitle": "主 Agent｜任务负责人",
+        "managerDuties": [
+          "理解总目标与边界",
+          "自动创建子 Agent，派发任务",
+          "汇总结果、处理冲突、最终交付"
+        ],
+        "subagents": [
+          "资料研究子 Agent｜返回证据与摘要",
+          "数据核对子 Agent｜返回表格与结论",
+          "内容审校子 Agent｜返回问题与建议"
+        ],
+        "useWhen": [
+          "任务能拆成彼此独立的子任务",
+          "过程要读取大量文件、网页或日志",
+          "不同工作需要不同规则、工具或权限边界"
+        ],
+        "conclusion": "子 Agent 只返回关键结果，避免大量过程信息干扰主 Agent 的判断和执行。",
+        "accentColor": "#176BFF"
+      }
+    },
+    {
       "layout": "theme07_page071",
       "props": {
         "title": "知己知彼：看懂大模型的长处与短板",
@@ -224,7 +251,13 @@
           "稀宇科技｜MiniMax-M3",
           "字节跳动｜Doubao-Seed-2.0 Pro"
         ],
-        "tags": ["处理长资料", "看图读表", "分析判断", "调用工具", "多步完成"],
+        "tags": [
+          "处理长资料",
+          "看图读表",
+          "分析判断",
+          "调用工具",
+          "多步完成"
+        ],
         "accentColor": "#176BFF"
       }
     },
@@ -284,18 +317,53 @@
         "positioning": "AI 原生桌面智能体工作台",
         "subtitle": "核心优势",
         "advantages": [
-          {"title": "一句话下达任务", "description": "用自然语言描述需求，无需复杂操作"},
-          {"title": "自主规划执行", "description": "自动拆解任务、规划步骤、完成交付"},
-          {"title": "多任务并行", "description": "同时发起和管理多个任务，适合并行处理"},
-          {"title": "本地文件操作", "description": "读取授权的电脑文件夹，进行批量处理"},
-          {"title": "结果可验收", "description": "生成的文档、表格、PPT 等可直接使用"}
+          {
+            "title": "一句话下达任务",
+            "description": "用自然语言描述需求，无需复杂操作"
+          },
+          {
+            "title": "自主规划执行",
+            "description": "自动拆解任务、规划步骤、完成交付"
+          },
+          {
+            "title": "多任务并行",
+            "description": "同时发起和管理多个任务，适合并行处理"
+          },
+          {
+            "title": "本地文件操作",
+            "description": "读取授权的电脑文件夹，进行批量处理"
+          },
+          {
+            "title": "结果可验收",
+            "description": "生成的文档、表格、PPT 等可直接使用"
+          }
         ],
         "scenarios": [
-          {"title": "日常办公", "items": ["文档生成", "数据分析"]},
-          {"title": "脚本开发", "items": ["日常编码辅助", "项目理解", "网站/应用开发"]},
-          {"title": "设计创意", "items": ["产品设计", "PPT 设计", "交互原型"]}
+          {
+            "title": "日常办公",
+            "items": [
+              "文档生成",
+              "数据分析"
+            ]
+          },
+          {
+            "title": "脚本开发",
+            "items": [
+              "日常编码辅助",
+              "项目理解",
+              "网站/应用开发"
+            ]
+          },
+          {
+            "title": "设计创意",
+            "items": [
+              "产品设计",
+              "PPT 设计",
+              "交互原型"
+            ]
+          }
         ],
-        "image": "assets/a13-workbuddy-intro-hd-v3.png",
+        "image": "assets/a14-workbuddy-intro-hd-v3.png",
         "accentColor": "#176BFF"
       }
     },
@@ -304,10 +372,21 @@
       "props": {
         "title": "从下载到登录，3分钟用上WorkBuddy",
         "lead": "先确认入口与系统版本，再完成安装和首次登录。",
-        "steps": ["访问官网", "选择系统版本", "完成安装", "首次登录"],
+        "steps": [
+          "访问官网",
+          "选择系统版本",
+          "完成安装",
+          "首次登录"
+        ],
         "guides": [
-          {"label": "Windows 安装指南", "url": "https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Installation-Win-Guide"},
-          {"label": "macOS 安装指南", "url": "https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Installation-Mac-Guide"}
+          {
+            "label": "Windows 安装指南",
+            "url": "https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Installation-Win-Guide"
+          },
+          {
+            "label": "macOS 安装指南",
+            "url": "https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Installation-Mac-Guide"
+          }
         ],
         "note": "根据腾讯官方的说法，“3分钟上手”——这一说法亲自验证过，确实毫不夸张！整个流程与在计算机上安装微信或WPS没有任何区别。",
         "accentColor": "#176BFF"
@@ -318,8 +397,12 @@
       "props": {
         "title": "第一次使用，先设置工作空间",
         "lead": "在新建任务中选择工作空间，明确 WorkBuddy 可以访问的文件夹。",
-        "rules": ["工作空间是什么", "第一次使用时", "为什么要授权"],
-        "image": "assets/a15-workspace-source.png",
+        "rules": [
+          "工作空间是什么",
+          "第一次使用时",
+          "为什么要授权"
+        ],
+        "image": "assets/a16-workspace-source.png",
         "accentColor": "#176BFF"
       }
     },
@@ -328,8 +411,15 @@
       "props": {
         "title": "上手WorkBuddy：开始你的第一个任务",
         "lead": "从“新建任务”到查看结果，先认识这六个常用位置。",
-        "areas": ["新建任务", "工作空间", "任务输入区", "执行状态", "结果文件", "设置与扩展"],
-        "image": "assets/a16-workbench-source.png",
+        "areas": [
+          "新建任务",
+          "工作空间",
+          "任务输入区",
+          "执行状态",
+          "结果文件",
+          "设置与扩展"
+        ],
+        "image": "assets/a17-workbench-source.png",
         "accentColor": "#176BFF"
       }
     },
@@ -338,9 +428,19 @@
       "props": {
         "title": "第一个任务：生成一份“本周计划”Excel",
         "lead": "先把任务说清楚，再看执行过程，最后打开文件逐项检查。",
-        "flow": ["输入任务", "查看执行", "找到文件", "打开验收"],
-        "checks": ["当前工作空间", "本周计划.xlsx", "日期、待办事项、完成情况", "能打开，也能继续编辑"],
-        "image": "assets/a17-week-plan-result.png",
+        "flow": [
+          "输入任务",
+          "查看执行",
+          "找到文件",
+          "打开验收"
+        ],
+        "checks": [
+          "当前工作空间",
+          "本周计划.xlsx",
+          "日期、待办事项、完成情况",
+          "能打开，也能继续编辑"
+        ],
+        "image": "assets/a18-week-plan-result.png",
         "accentColor": "#176BFF"
       }
     },
@@ -349,8 +449,26 @@
       "props": {
         "title": "Ask / Craft / Plan：先选对工作方式",
         "lead": "先判断任务需要答案、直接交付，还是先确认方案。",
-        "modes": ["Ask｜只问", "Craft｜直接做", "Plan｜先规划"],
+        "modes": [
+          "Ask｜只问",
+          "Craft｜直接做",
+          "Plan｜先规划"
+        ],
         "decision": "只需要答案？需要直接交付？是否复杂到要先确认计划？",
+        "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page092",
+      "props": {
+        "title": "连接、方法、分工：看懂 WorkBuddy 的能力组合",
+        "lead": "同一项任务，既要接入外部服务，也要有做事方法，还可能需要多位专家协作。",
+        "cards": [
+          "连接器｜主要对应 MCP",
+          "技能｜直接对应 Skills",
+          "专家团｜概念相近 主 Agent + Subagent"
+        ],
+        "conclusion": "连接器解决“能接什么”，技能解决“怎样做”，专家团解决“谁来分工完成”。",
         "accentColor": "#176BFF"
       }
     },
@@ -359,8 +477,17 @@
       "props": {
         "title": "多专家协作：一句话调动一支团队",
         "lead": "WorkBuddy 可以根据任务需要匹配不同领域的专家，协同推进工作。",
-        "points": ["100+ 领域专家", "多专家并行协作", "能力按需扩展"],
-        "flow": ["一句指令", "规划分工", "并行协作", "汇总交付"],
+        "points": [
+          "100+ 领域专家",
+          "多专家并行协作",
+          "能力按需扩展"
+        ],
+        "flow": [
+          "一句指令",
+          "规划分工",
+          "并行协作",
+          "汇总交付"
+        ],
         "video": "assets/user-media/expert-team-intro-bmxwqbuo.mp4",
         "accentColor": "#176BFF"
       }
@@ -370,9 +497,32 @@
       "props": {
         "title": "不在电脑前，也能把任务交给它",
         "lead": "配置远程助理后，可以在授权范围内从手机发起任务。",
-        "steps": ["打开助理设置", "选择微信集成", "完成配置", "扫码绑定"],
+        "steps": [
+          "打开助理设置",
+          "选择微信集成",
+          "完成配置",
+          "扫码绑定"
+        ],
         "note": "本页以微信助理为例；其他平台是否可用，以当前版本、账号类型和企业权限为准。",
-        "images": ["assets/a20-assistant-nav-source.png", "assets/a20-assistant-qr-source.png"],
+        "images": [
+          "assets/a21-assistant-nav-source.png",
+          "assets/a21-assistant-qr-source.png"
+        ],
+        "accentColor": "#176BFF"
+      }
+    },
+    {
+      "layout": "theme07_page093",
+      "props": {
+        "title": "金融数据怎样接入 Agent？",
+        "lead": "",
+        "platforms": [
+          "通达信 MCP",
+          "问财 SkillHub / iFinD MCP / iFinD 数据接口",
+          "东方财富妙想 Skills",
+          "Wind AIFin Market / 金融 Skills"
+        ],
+        "conclusion": "MCP 连接数据和工具；Skills 封装研究流程；API 支持程序化取数。",
         "accentColor": "#176BFF"
       }
     },
@@ -381,8 +531,18 @@
       "props": {
         "title": "第一次上手常见问题",
         "lead": "先按固定顺序排查；需要系统学习时，直接查看 WorkBuddy 官方文档。",
-        "problems": ["无法访问路径", "输出格式不对", "响应慢或无反应", "macOS 无法验证开发者"],
-        "order": ["权限", "路径", "网络 / Credits", "指令与验收"],
+        "problems": [
+          "无法访问路径",
+          "输出格式不对",
+          "响应慢或无反应",
+          "macOS 无法验证开发者"
+        ],
+        "order": [
+          "权限",
+          "路径",
+          "网络 / Credits",
+          "指令与验收"
+        ],
         "officialDocs": "https://www.codebuddy.cn/docs/workbuddy/Overview",
         "officialDocsSummary": "入门指南、安装与功能说明、实践案例、Skills、助理接入和账号说明",
         "accentColor": "#176BFF"
@@ -397,7 +557,12 @@
         "sub": "定义 · 执行 · 验收",
         "lead": "",
         "closing": "",
-        "keywords": ["定义成果", "准备上下文", "观察执行", "验收结果"],
+        "keywords": [
+          "定义成果",
+          "准备上下文",
+          "观察执行",
+          "验收结果"
+        ],
         "keywordCount": 4,
         "backgroundVariant": "paper",
         "layout": "left",
@@ -412,8 +577,16 @@
       "props": {
         "title": "有了好工具，还要有好方法",
         "lead": "选择适合 Agent 的工作方式，比要求 Agent 适应所有工具更重要。",
-        "roles": ["人：定目标、做判断、验收结果", "Agent：理解、规划、调度、整合", "专业工具：计算、绘制、转换、生成"],
-        "principles": ["扬长避短", "分层协作", "结果验收"],
+        "roles": [
+          "人：定目标、做判断、验收结果",
+          "Agent：理解、规划、调度、整合",
+          "专业工具：计算、绘制、转换、生成"
+        ],
+        "principles": [
+          "扬长避短",
+          "分层协作",
+          "结果验收"
+        ],
         "accentColor": "#176BFF"
       }
     },
@@ -422,7 +595,13 @@
       "props": {
         "title": "处理文档：先转换成 Agent 擅长的文本，再处理格式",
         "lead": "大模型更擅长理解和生成文本；Markdown 用轻量标记保留结构，减少复杂格式干扰。",
-        "flow": ["读取 DOCX", "提取为 Markdown 工作稿", "修改、比较、确认内容", "写回 DOCX", "检查排版"],
+        "flow": [
+          "读取 DOCX",
+          "提取为 Markdown 工作稿",
+          "修改、比较、确认内容",
+          "写回 DOCX",
+          "检查排版"
+        ],
         "example": "修改一份制度或报告：先确认内容，再处理版式。",
         "accentColor": "#176BFF"
       }
@@ -432,9 +611,22 @@
       "props": {
         "title": "处理数据：别让模型心算，让它调度工具算",
         "lead": "Agent 负责想清楚，脚本和工具负责算清楚。",
-        "agentTasks": ["理解问题", "拆解任务", "判断下一步"],
-        "tools": ["Python / SQL", "CSV / JSON", "表格与图表"],
-        "checks": ["指标口径", "异常数据", "计算逻辑", "结论是否成立"],
+        "agentTasks": [
+          "理解问题",
+          "拆解任务",
+          "判断下一步"
+        ],
+        "tools": [
+          "Python / SQL",
+          "CSV / JSON",
+          "表格与图表"
+        ],
+        "checks": [
+          "指标口径",
+          "异常数据",
+          "计算逻辑",
+          "结论是否成立"
+        ],
         "accentColor": "#176BFF"
       }
     },
@@ -443,7 +635,12 @@
       "props": {
         "title": "演示汇报：核心是把信息讲清楚",
         "lead": "根据受众和信息特点，选择最合适的呈现方式。",
-        "outputs": ["PPT", "网页报告", "数据看板", "动态推演"],
+        "outputs": [
+          "PPT",
+          "网页报告",
+          "数据看板",
+          "动态推演"
+        ],
         "note": "不是先打开软件找模版，而是先判断信息怎样呈现最清楚。",
         "accentColor": "#176BFF"
       }
@@ -453,8 +650,17 @@
       "props": {
         "title": "设计工作：先把想法做成原型，再进行沟通讨论",
         "lead": "Agent 可以把自然语言描述快速变成想法原型，让方案在投入正式制作前先被看见、讨论和验证。",
-        "prototypes": ["需求与约束", "想法原型", "业务判断"],
-        "flow": ["说明业务目标", "形成可讨论方案", "人判断方向", "专业团队完善"],
+        "prototypes": [
+          "需求与约束",
+          "想法原型",
+          "业务判断"
+        ],
+        "flow": [
+          "说明业务目标",
+          "形成可讨论方案",
+          "人判断方向",
+          "专业团队完善"
+        ],
         "accentColor": "#176BFF"
       }
     },
@@ -463,8 +669,18 @@
       "props": {
         "title": "长期任务：对话是工作现场，文件是组织记忆",
         "lead": "把复杂任务拆开，把关键过程记录下来，把任务产物汇总起来。",
-        "tasks": ["资料研究", "内容撰写", "视觉设计", "数据核验"],
-        "sharedFiles": ["项目说明.md", "当前进展.md", "决策记录.md", "任务交接.md"],
+        "tasks": [
+          "资料研究",
+          "内容撰写",
+          "视觉设计",
+          "数据核验"
+        ],
+        "sharedFiles": [
+          "项目说明.md",
+          "当前进展.md",
+          "决策记录.md",
+          "任务交接.md"
+        ],
         "versioning": "版本管理",
         "accentColor": "#176BFF"
       }
@@ -474,8 +690,16 @@
       "props": {
         "title": "人定方向，Agent 推进，工具执行",
         "lead": "各自做擅长的事，在反馈中把任务推进到可验收的结果。",
-        "comparison": ["人：定目标、划边界、做判断、验收", "Agent：理解、规划、调度、整合", "专业工具：检索、计算、绘制、生成"],
-        "loop": ["验收结果", "反馈修正", "进入下一轮"],
+        "comparison": [
+          "人：定目标、划边界、做判断、验收",
+          "Agent：理解、规划、调度、整合",
+          "专业工具：检索、计算、绘制、生成"
+        ],
+        "loop": [
+          "验收结果",
+          "反馈修正",
+          "进入下一轮"
+        ],
         "closing": "真正高效的人机协作，是让每一部分都由最适合它的人或工具完成。",
         "accentColor": "#176BFF"
       }
@@ -489,7 +713,12 @@
         "sub": "案例演示与方法迁移",
         "lead": "",
         "closing": "",
-        "keywords": ["周报", "阶段总结", "营销策划与素材", "知识库"],
+        "keywords": [
+          "周报",
+          "阶段总结",
+          "营销策划与素材",
+          "知识库"
+        ],
         "keywordCount": 4,
         "backgroundVariant": "paper",
         "layout": "left",

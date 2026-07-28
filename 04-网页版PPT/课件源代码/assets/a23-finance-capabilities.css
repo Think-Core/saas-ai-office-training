@@ -1,0 +1,24 @@
+section[data-vm-layout="theme07_page093"]{background:#f6f8fc;color:#102039}
+.a23-fin-page{position:absolute;left:0;top:0;width:1920px;height:1080px;overflow:hidden;padding:48px 86px 38px;box-sizing:border-box;background:radial-gradient(circle at 84% 8%,rgba(23,107,255,.10),transparent 28%),linear-gradient(180deg,#f8faff 0%,#f4f7fb 100%);font-family:Inter,"Microsoft YaHei","PingFang SC",sans-serif;transform:scale(var(--deck-scale));transform-origin:top left}
+.a23-fin-page *{box-sizing:border-box}
+.a23-fin-head{height:92px;display:flex;align-items:flex-start;padding-bottom:20px;border-bottom:1px solid #dbe5f1}
+.a23-fin-head h1{margin:0;font-size:62px;line-height:1.12;letter-spacing:-1.8px;font-weight:900;color:#0c1b31}
+.a23-fin-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px 20px;margin-top:20px}
+.a23-fin-card{position:relative;min-height:340px;padding:28px 34px 28px;box-sizing:border-box;border:1px solid #dbe6f3;border-radius:24px;background:rgba(255,255,255,.96);box-shadow:0 15px 36px rgba(28,58,92,.08);overflow:hidden}
+.a23-fin-card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:7px;background:var(--brand)}
+.a23-fin-brand{display:grid;grid-template-columns:100px 1fr auto;gap:22px;align-items:center}
+.a23-fin-logo{width:96px;height:96px;border-radius:22px;object-fit:cover;box-shadow:0 8px 22px rgba(20,43,76,.15)}
+.a23-fin-brand h2{margin:0;font-size:41px;line-height:1.16;font-weight:900;color:#102039}
+.a23-fin-brand small{display:block;margin-top:7px;font-size:28px;line-height:1.18;font-weight:850;color:#657b94}
+.a23-fin-tags{display:flex;gap:10px;align-self:center}
+.a23-fin-tag{padding:11px 16px;border-radius:999px;background:color-mix(in srgb,var(--brand) 11%,white);color:var(--brand);font-size:24px;line-height:1;font-weight:900}
+.a23-fin-products{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+.a23-fin-product{display:inline-flex;align-items:center;min-height:52px;padding:0 18px;border:1px solid #cfdeee;border-radius:13px;background:#f5f9fe;color:#17304d;font-size:29px;line-height:1.18;font-weight:900}
+.a23-fin-card p{margin:20px 0 0;font-size:29px;line-height:1.36;font-weight:760;color:#46617e}
+.a23-fin-legend{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:20px}
+.a23-fin-legend-item{display:grid;grid-template-columns:60px 110px 1fr;gap:16px;align-items:center;min-height:100px;padding:15px 22px;box-sizing:border-box;border:1px solid #d0e1f3;border-radius:18px;background:#eaf4ff}
+.a23-fin-legend-icon{display:flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:16px;background:#176bff;color:#fff}
+.a23-fin-legend-icon svg{width:32px;height:32px;fill:none;stroke:currentColor;stroke-width:2.15;stroke-linecap:round;stroke-linejoin:round}
+.a23-fin-legend-item b{font-size:31px;line-height:1.15;font-weight:950;color:#176bff}
+.a23-fin-legend-item span{font-size:28px;line-height:1.25;font-weight:820;color:#294663}
+@media print{.a23-fin-page{transform:scale(1)!important}}
