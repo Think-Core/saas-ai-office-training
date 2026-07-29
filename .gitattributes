@@ -7,4 +7,5 @@
 *.avi filter=lfs diff=lfs merge=lfs -text
 *.webm filter=lfs diff=lfs merge=lfs -text
 *.gif filter=lfs diff=lfs merge=lfs -text
-
+*.woff2 filter=lfs diff=lfs merge=lfs -text
+06-交付成果/HTML/*.html filter=lfs diff=lfs merge=lfs -text
