@@ -9,9 +9,15 @@
 <link rel="stylesheet" href="assets/a20-workbuddy-capabilities.css">
 <link rel="stylesheet" href="assets/a23-finance-capabilities.css">
 <title>AI Agent 赋能基础办公</title>
-<!-- Self-hosted fonts (no external CDN): Anton, Archivo, Caveat, IBM Plex Mono, IBM Plex Sans, Inter, JetBrains Mono, Newsreader, Space Grotesk, Space Mono. -->
-<!-- Noto Sans SC / Noto Serif SC / Zhi Mang Xing are NOT self-hosted (unicode-range-sharded CJK webfonts exceed size budget); system CJK fonts are used as fallback via the --sans / --sans-zh stacks below. -->
+<!-- Self-hosted fonts (no external CDN): Noto Sans SC, Anton, Archivo, Caveat, IBM Plex Mono, IBM Plex Sans, Inter, JetBrains Mono, Newsreader, Space Grotesk, Space Mono. -->
 <style>
+  @font-face{
+    font-family:'Noto Sans SC';
+    font-style:normal;
+    font-weight:100 900;
+    font-display:swap;
+    src:url('assets/vendor/fonts/noto-sans-sc-vf.woff2') format('woff2');
+  }
   @font-face{
     font-family:'Anton';
     font-style:normal;
@@ -2028,7 +2034,7 @@ section[data-layout="THEME07-002"] h1{font-size:0!important;line-height:1!import
 section[data-layout="THEME07-002"] h1 .l1{display:block!important;color:#176bff!important;font-family:Inter,"Arial Black","Noto Sans SC","Microsoft YaHei",sans-serif!important;font-size:146px!important;font-weight:900!important;line-height:.9!important;letter-spacing:-7px!important}
 section[data-layout="THEME07-002"] h1 .l2{display:block!important;margin-top:48px!important;color:#0b1528!important;font-family:"Noto Sans SC","Microsoft YaHei",sans-serif!important;font-size:92px!important;font-weight:900!important;line-height:1.04!important;letter-spacing:0!important}
 section[data-layout="THEME07-002"] .timeline{display:none!important}
-section[data-layout="THEME07-002"] .ptpress-brand{position:absolute;z-index:12;top:8px;right:24px;width:230px;height:auto;pointer-events:none}
+section[data-layout="THEME07-002"] .ptpress-brand{position:absolute;z-index:12;top:8px;right:24px;display:block;width:230px;height:auto;object-fit:contain;pointer-events:none}
 
 /* A-02 four-stage learning route */
 section[data-layout="THEME07-007"] .aic-toc{position:relative!important;overflow:hidden!important;display:flex!important;flex-direction:column!important;box-sizing:border-box!important;width:100%!important;height:100%!important;padding:72px 150px!important;background:#fafbf9!important;color:#0b1528!important;--aic-accent:#176bff!important;--aic-paper:#fafbf9!important}
@@ -9905,7 +9911,7 @@ refreshRailCatalog();
 })();
 </script>
 <script id="course-brand-mark">
-document.addEventListener('DOMContentLoaded',function(){var slide=document.querySelector('section[data-layout="THEME07-002"]');if(!slide||slide.querySelector('.ptpress-brand'))return;var logo=document.createElement('img');logo.className='ptpress-brand';logo.src='assets/user-media/logo.png';logo.alt='人民邮电出版社';slide.appendChild(logo);});
+document.addEventListener('DOMContentLoaded',function(){var slide=document.querySelector('section[data-layout="THEME07-002"]');var canvas=slide&&slide.querySelector('.imported-theme-root');if(!canvas||canvas.querySelector('.ptpress-brand'))return;var logo=document.createElement('img');logo.className='ptpress-brand';logo.src='assets/user-media/logo.png';logo.alt='人民邮电出版社';canvas.appendChild(logo);});
 </script>
 <script id="a02-route-visual">
 (function(){function mountA02Visual(){document.querySelectorAll('section[data-layout="THEME07-007"] .aic-toc').forEach(function(host){if(host.querySelector('.a02-visual'))return;var visual=document.createElement('div');visual.className='a02-visual';visual.setAttribute('aria-hidden','true');visual.innerHTML='<span class="a02-plane p1"></span><span class="a02-plane p2"></span><span class="a02-plane p3"></span><span class="a02-plane p4"></span><span class="a02-focus"></span>';host.appendChild(visual);});}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',mountA02Visual,{once:true});}else{mountA02Visual();}var observer=new MutationObserver(mountA02Visual);observer.observe(document.documentElement,{childList:true,subtree:true});setTimeout(function(){observer.disconnect();},5000);})();
